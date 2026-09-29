@@ -1,4 +1,4 @@
-# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+﻿# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
 # [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
 
 [INICIO]
