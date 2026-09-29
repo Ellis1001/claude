@@ -9,7 +9,8 @@ A new fashion photo of a different model who closely resembles the woman in my r
 
 MODEL
 - Clearly an adult woman in her mid-20s or older, with mature adult facial features (defined cheekbones and jawline, adult facial proportions), even if the reference looks younger
-- Similar: skin tone, eye color, hair (color, length, style), body type
+- Similar: skin tone, eye color, hair (color, length, style)
+- Body: a fit, gym-toned figure, like a woman who trains regularly: medium-large, rounded, firm glutes, toned thighs and a defined waist, natural and proportionate
 - She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
 
 CHANGE
@@ -125,6 +126,7 @@ IMAGE QUALITY
 
 AVOID
 - The same face as the reference (she must look like a different person)
+- Exaggerated, cartoonish or surgically enhanced body proportions
 - Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); she must clearly look like an adult woman
 - Warm, yellow or sepia color cast not present in the original
 - Shiny, glossy, oily or overly glowing skin
