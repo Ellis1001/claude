@@ -1,0 +1,161 @@
+# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+# [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
+
+[INICIO]
+Generate a new photorealistic image based on the photo I've attached.
+
+GOAL
+A new fashion photo of a different model who closely resembles the woman in my reference, as if she were another model from the same photoshoot, with a different face.
+
+MODEL
+- Similar: age range, skin tone, eye color, hair (color, length, style), body type
+- She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
+
+CHANGE
+
+[Cara | - Face | nuevas]
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {more almond-shaped eyes|rounder, bigger eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}
+a clearly different face from the reference: {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows} and {a small beauty mark on her cheek|light freckles across her nose|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {more almond-shaped eyes|rounder, bigger eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks} and {fuller lips|thinner lips|a more defined cupid's bow|a wider smile}
+a clearly different face from the reference: {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {a small beauty mark on her cheek|light freckles across her nose|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {more almond-shaped eyes|rounder, bigger eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes} and {a small beauty mark on her cheek|light freckles across her nose|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+
+[Ropa ajustada | - Outfit | nuevas]
+fitted {black|charcoal|chocolate brown|dark green} ribbed-knit midi dress with short sleeves and a round neckline, hem at mid-calf, realistic knit texture, natural stretch creases
+fitted {black|gray|mocha|burgundy} long-sleeve jersey maxi dress with a crew neck, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted {black|red|white|beige|emerald green} bodycon midi dress with cap sleeves and a high round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {cream-colored|black|sage green|dusty pink} ribbed-knit bodycon dress with a high neckline, ending at mid-calf, realistic knit texture, natural stretch creases
+fitted {black|navy|lilac|baby blue} sleeveless mock-neck ribbed maxi dress, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted {white|black|red} square-neck midi dress with wide straps and a high, modest neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {black|charcoal|navy} stretch pencil midi dress with short sleeves and a high neckline, hem just below the knee, realistic fabric texture, natural stretch creases
+fitted {black|white|red} long-sleeve boat-neck midi dress, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
+fitted {black|gray|brown} jersey midi dress with short sleeves, a round neckline and a mermaid hem that flares softly at the calves, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red|cobalt blue} thin turtleneck long-sleeve bodycon midi dress, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
+fitted {white|black|beige} ribbed tank maxi dress with thick straps and a high neckline, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted {black|dark brown} faux-leather midi dress with short sleeves and a round neckline, hem below the knee, realistic leather sheen and creases
+fitted {beige|white|black|pink} fine-knit sweater midi dress with long sleeves and a round neckline, hem below the knee, realistic knit texture, natural stretch creases
+fitted {black|champagne|red} stretch-satin midi dress with wide straps and a high neckline, hem at mid-calf, realistic sheen, natural stretch creases
+fitted {black|white|burgundy} wrap-style midi dress that closes high at the chest, with three-quarter sleeves, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {black|brown|olive} long-sleeve bodycon maxi dress with a crew neck, tight from shoulders to ankles, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red} henley-style ribbed maxi dress with long sleeves and the buttons done up, hem at the ankles, realistic ribbed texture, natural stretch creases
+fitted {black|beige} corset-style midi dress with wide straps and a high straight neckline, hem below the knee, realistic fabric texture and creases
+fitted ribbed {white|gray|black} tank midi dress with a high crew neck, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
+fitted {gray|beige|black} ribbed-knit lounge maxi dress with short sleeves and a round neckline, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted {red|black|white} long-sleeve bodycon midi dress with a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {black|white} ribbed polo-collar midi dress with short sleeves and the front buttons closed, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
+fitted {black|navy|wine} knit midi dress with elbow-length sleeves and a shallow, modest V-neck, hem at mid-calf, realistic knit texture, natural stretch creases
+fitted {black|charcoal|mocha} ruched-side jersey midi dress with short sleeves and a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+
+[Ropa | - Outfit | modelo]
+fitted {cream-colored|black|sage green|dusty pink} ribbed-knit midi dress with long sleeves and a round neckline, hem at mid-calf, realistic fabric texture, natural stretch creases
+fitted {black|charcoal|chocolate brown} ribbed-knit bodycon midi dress with a round neckline, hem below the knee, realistic fabric texture, natural stretch creases
+light-wash denim jacket worn open over a fitted {white|black|beige} ribbed maxi dress with a high neckline, realistic denim and knit texture, natural creases
+matching {soft gray|beige|light blue} cotton lounge look, a fitted jersey maxi dress with short sleeves and a cropped zip-up hoodie worn open over it, realistic cotton texture, soft natural folds
+{white|light blue} oversized linen shirt worn open over a fitted {white|beige} ribbed tank midi dress with a high neckline, realistic linen wrinkles
+fitted {black|brown|burgundy} faux-leather midi dress with long sleeves and a round neckline, hem below the knee, realistic leather sheen and creases
+{emerald green|navy|black|champagne} satin midi dress with wide straps and a high neckline, fitted at the waist and hips, hem at mid-calf, realistic satin sheen and soft draping
+fitted {black|gray|brown} jersey maxi dress with a light zip-up jacket worn open over it, realistic stretch fabric texture
+{small floral|tiny polka-dot|gingham} fitted cotton midi sundress with wide straps and a modest square neckline, hem below the knee, realistic fabric texture, gentle wrinkles
+fitted {beige|cream|black} tailored sheath midi dress with short sleeves, hem below the knee, realistic fabric texture, natural creases at the waist
+{chunky cream|soft camel|light gray} fitted knit sweater dress with long sleeves, hem at mid-calf, realistic wool texture with visible stitches
+fitted {white|black|red} square-neck midi dress with wide straps and a high, modest neckline, hem at mid-calf, realistic fabric texture, natural creases
+fitted {red|white|black} midi dress with short puff sleeves and a round neckline, hem below the knee, realistic fabric texture, natural creases
+long {beige|camel} trench coat worn open over a fitted {black|white} midi dress ending below the knee, realistic fabric texture and natural drape
+fitted {pink|white|light blue} ribbed button-front knit midi dress with long sleeves and all buttons closed, hem at mid-calf, realistic knit texture
+{black|white} fitted high-neck sleeveless maxi dress with a slightly flared hem at the ankles, realistic fabric texture, natural creases
+{olive|khaki|black} fitted utility shirt dress with a collar, buttoned up and belted at the waist, hem below the knee, realistic cotton texture, natural folds
+{lilac|mint|baby blue} fitted ribbed maxi dress with short sleeves and a round neckline, realistic stretch fabric texture
+{white|cream} fitted cotton midi dress with a lace-trimmed high neckline and short sleeves, hem below the knee, realistic lace and cotton texture
+{black|burgundy|forest green} fitted velvet midi dress with long sleeves and a round neckline, realistic velvet texture with a soft sheen
+{white|beige|light gray} fitted cotton t-shirt maxi dress, hem at the ankles, realistic cotton texture, soft natural folds
+{gray|black} oversized hoodie worn over a fitted jersey maxi dress, realistic cotton fleece and jersey texture
+fitted {denim|black} corset-style midi dress with wide straps and a high straight neckline, hem below the knee, realistic fabric texture, natural creases
+{striped|plain white} fitted long-sleeve knit maxi dress with a boat neckline, realistic fabric texture, natural creases
+{camel|black|gray} fitted thin turtleneck sweater dress, hem at mid-calf, realistic knit texture
+{white|light pink|butter yellow} fitted wrap midi dress that closes high at the chest, with short sleeves, hem below the knee, realistic fabric texture, natural creases
+oversized {denim|brown suede} jacket over a fitted {white|black} ribbed midi dress with a high neckline, realistic fabric texture and natural drape
+{black|navy} fitted midi dress with elbow-length sleeves and a shallow, modest V-neck, hem at mid-calf, realistic fabric texture, natural creases
+{white|sky blue|pale yellow} fitted button-front midi dress with short sleeves and all buttons closed, hem below the knee, realistic cotton texture, gentle wrinkles
+{heather gray|black|white} fitted ribbed tank maxi dress with thick straps and a high neckline, realistic ribbed texture
+
+[Pose | - Pose | nuevas]
+three-quarter view, weight on one leg, one hand on hip, looking over her shoulder at the camera with a soft, confident expression
+standing facing the camera, weight shifted onto one hip, arms relaxed at her sides, looking straight into the lens with a small natural smile
+turned slightly to the side, one hand running through her hair, the other arm relaxed, looking at the camera with a calm, confident expression
+leaning one shoulder against the nearest wall, legs crossed at the ankles, arms loosely folded, soft smile toward the camera
+walking toward the camera mid-step, arms swinging naturally, looking just past the lens with a relaxed expression
+sitting on the nearest chair or ledge, legs crossed, hands resting on her knee, body angled toward the camera, gentle smile
+back partly to the camera, looking back over her shoulder, one hand touching her hair, soft playful smile
+three-quarter view, both hands in her back pockets, chin slightly raised, confident expression
+tucking a strand of hair behind her ear, head slightly tilted, genuine warm smile, looking at the camera
+arms raised adjusting her hair, elbows up, body turned three-quarters, relaxed confident expression
+crouching down casually, forearms resting on her knees, looking up at the camera with a friendly smile
+mid-laugh, head tilted slightly back, one hand near her face, a natural candid moment
+standing with feet apart and both hands on her hips, confident expression, looking straight into the lens
+adjusting the strap or sleeve of her outfit, glancing up at the camera, candid feel
+holding a coffee cup in one hand, the other hand in her pocket, relaxed three-quarter stance, soft smile
+looking down at the phone in her hand and smiling at the screen, body turned three-quarters, candid moment
+one leg crossed in front of the other, hands clasped loosely in front of her, sweet natural smile
+side profile looking into the distance, face turned slightly toward the camera, relaxed natural expression
+one knee slightly bent, fingertips touching her collarbone, looking at the camera with a soft smile
+sitting sideways with her knees together and hands on her lap, shoulders relaxed, looking at the camera with a calm smile
+
+[Escena | - | modelo]
+Pose: mirror selfie. Standing in front of a full-length mirror, body at a slight three-quarter angle, weight on one leg, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free hand resting on {su} hip, looking toward the mirror with a soft, confident smile // Setting: a real, lived-in bedroom with a full-length mirror leaning against the wall, part of an unmade bed with neutral linens, a chair with a few clothes on it, a plant by the window, soft natural daylight from the side and a few faint smudges on the mirror
+Pose: mirror selfie at the bathroom sink, hips turned slightly, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free hand touching {su} hair, relaxed natural expression // Setting: a real home bathroom with a large mirror above the sink, a few skincare bottles and a toothbrush cup on the counter, a folded towel, soft daylight from a small frosted window and light water spots on the mirror
+Pose: mirror selfie. Standing in an elevator, one shoulder against the mirrored wall, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, calm confident expression // Setting: a real apartment building elevator with mirrored walls, brushed steel panels and a button panel, a slightly worn floor, flat overhead lighting and fingerprints on the mirror
+Pose: mirror selfie in a fitting room, body turned three-quarters to show the outfit, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free hand on {su} waist, soft smile // Setting: a real clothing store fitting room with a tall mirror, a curtain partly open, a few hangers with clothes on a hook, a small stool and bright overhead store lighting
+Pose: mirror selfie by the front door, standing straight with weight on one leg, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free arm relaxed, looking at the phone screen with a slight smile // Setting: a real apartment entryway with a tall wall mirror, coats on hooks, a few pairs of shoes by the door, a small bowl with keys and daylight coming through the door glass
+Pose: mirror selfie in a walk-in closet, standing three-quarters, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free hand holding the edge of a shelf, confident expression // Setting: a small real walk-in closet with clothes on hangers, shelves with folded sweaters and shoes, a tall mirror and a neutral ceiling light
+Pose: mirror selfie sitting on the edge of the bed facing a mirror, legs crossed, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, relaxed smile // Setting: a real hotel room with a large mirror above the desk, a bed with slightly rumpled white sheets, a suitcase open on a luggage rack and daylight through sheer curtains
+Pose: mirror selfie, standing close to the mirror so the outfit fills the frame, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, head tilted slightly, soft confident expression // Setting: a real bedroom corner with an oval standing mirror, a laundry basket, a nightstand with a lamp and a book, soft morning daylight from the window
+Pose: selfie taken at arm's length with the phone held slightly above eye level (the phone itself is not visible), head tilted a little, soft natural smile // Setting: a table by the window of a real neighborhood café, a latte in a ceramic cup and a small plate, other customers softly blurred in the background, natural daylight
+Pose: selfie taken at arm's length from the passenger seat of a parked car (the phone itself is not visible), body slightly turned toward the camera, relaxed smile // Setting: the interior of a real everyday car with fabric seats, part of the dashboard visible and soft daylight coming through the windshield
+Pose: selfie taken from above while lying back on a sofa, hair spread on a cushion, looking up at the camera with a sleepy, sweet smile (the phone itself is not visible) // Setting: a real living room sofa with a knitted throw blanket and a couple of cushions, soft afternoon daylight
+Pose: selfie taken at arm's length while walking, phone slightly above eye level (the phone itself is not visible), candid smile, hair moving naturally // Setting: a real city sidewalk with shop fronts, parked cars and a few pedestrians softly blurred, bright overcast daylight
+Pose: selfie taken at arm's length while sitting on the grass, legs stretched out, leaning back on one hand (the phone itself is not visible), relaxed happy expression // Setting: a real public park with trees, a path and a few people far in the background, dappled afternoon sunlight
+Pose: standing on the sidewalk, three-quarter view, weight on one leg, one hand in a pocket, looking at the camera with a calm, confident expression // Setting: a real quiet city street with small shops, parked scooters and a tree, soft overcast daylight, photo taken by a friend with a phone
+Pose: leaning with both forearms on a balcony railing, body turned slightly, looking back at the camera with a relaxed smile // Setting: a real apartment balcony with a few potted plants and neighboring buildings, soft late-afternoon light
+Pose: sitting at a small café table, one elbow on the table and chin resting lightly on {su} hand, looking at the camera with a warm smile // Setting: a real outdoor café terrace with small metal tables and chairs, a cup of coffee, people and street softly blurred behind {la}, natural daylight
+Pose: leaning back against the kitchen counter, both hands resting on the edge, ankles crossed, candid relaxed smile // Setting: a real home kitchen with a few dishes by the sink, a fruit bowl, a coffee maker and daylight from the window
+Pose: sitting cross-legged on the sofa holding a mug with both hands, looking at the camera with a soft smile // Setting: a real living room with a sofa, a throw blanket, a coffee table with a couple of mugs and a plant, soft daylight from a large window
+Pose: walking along a park path toward the camera mid-step, arms swinging naturally, looking just past the lens with a relaxed expression // Setting: a real park with tall trees, benches and a few people in the distance, dappled sunlight
+Pose: sitting on outdoor concrete steps, elbows resting on {su} knees, looking up at the camera with a friendly smile // Setting: real outdoor concrete steps in front of an apartment building, a railing, a few plants, soft daylight
+Pose: sitting in a restaurant booth, one arm resting on the table, body turned toward the camera, natural smile // Setting: a real casual restaurant with a booth, a glass of water and a menu on the table, other diners softly blurred, neutral indoor lighting
+Pose: standing between the shelves, holding an open book, looking up from the page at the camera with a small smile // Setting: a real bookstore aisle with crowded shelves of books, a small step stool and soft even indoor lighting
+Pose: leaning one shoulder against a colorful mural, legs crossed at the ankles, hands in pockets, confident expression // Setting: a real street wall with a painted mural, a bit of sidewalk and a bike rack, bright overcast daylight
+Pose: sitting on the front steps of a house, knees together, forearms on {su} knees, relaxed natural smile // Setting: the real porch of a suburban house with a wooden door, a doormat and potted plants, soft afternoon light
+Pose: standing by a market stall, holding a paper bag of fruit, turning toward the camera with a candid smile // Setting: a real outdoor farmers market with fruit and vegetable stalls, shoppers softly blurred in the background, natural daylight
+Pose: leaning back against the door of a parked car, arms loosely crossed, calm confident expression // Setting: a real residential street with a parked everyday car, trees, houses and soft late-afternoon light
+Pose: standing by the window, one hand holding the curtain slightly open, face turned toward the light, soft thoughtful expression // Setting: a real bedroom with light curtains, a bed with neutral linens and soft natural window light on {su} face
+Pose: sitting on the bed with legs folded to the side, one hand resting on the duvet, looking at the camera with a sweet smile // Setting: a real, lived-in bedroom with a rumpled duvet, a couple of pillows, a nightstand with a lamp and a glass of water, soft morning daylight
+Pose: standing in the middle of the aisle, holding a small shopping basket, looking back at the camera with a playful smile // Setting: a real small grocery store aisle with shelves of products, price labels and bright even store lighting
+Pose: sitting on a wooden bench, one arm stretched along the backrest, legs crossed, relaxed smile // Setting: a real city park with a wooden bench, a lamp post, trees and a path, soft afternoon light
+Pose: standing on a rooftop terrace, leaning a hand on the railing, looking at the camera with a calm smile, a light breeze in {su} hair // Setting: a real residential rooftop terrace with a few chairs and plants, city buildings in the background, warm late-afternoon sunlight
+Pose: sitting at a desk, turned sideways on the chair toward the camera, one arm resting on the backrest, natural smile // Setting: a real home office corner with a laptop, a notebook, a lamp and a plant on the desk, soft daylight from a window
+Pose: standing at a street crosswalk, turning back toward the camera mid-step, candid relaxed expression // Setting: a real city crosswalk with traffic lights, cars softly blurred and buildings behind {la}, bright overcast daylight
+Pose: sitting on a low wall by the water, legs dangling, hands resting on the wall, looking at the camera with a relaxed smile // Setting: a real seaside promenade with a low stone wall, the sea and a few people in the distance, soft afternoon light
+Pose: standing in a hotel corridor, leaning lightly against the wall, one hand holding a room key card, calm confident expression // Setting: a real hotel corridor with patterned carpet, numbered doors and soft neutral ceiling lights
+
+[FINAL]
+KEEP EXACTLY THE SAME
+- Background and setting
+- Lighting: direction, softness, intensity, color temperature
+- Lens look, depth of field and framing style
+- Color grading, contrast, white balance, grain
+- Sharpness and level of detail of the original photo
+- Natural, matte skin with real texture: visible pores, fine lines and small imperfections, like an unedited phone photo
+
+AVOID
+- The same face as the reference (she must look like a different person)
+- Warm, yellow or sepia color cast not present in the original
+- Shiny, glossy, oily or overly glowing skin
+- Smoothed, plastic, waxy or airbrushed skin
+- Doll-like, porcelain or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
+- Illustration, CGI or 3D look
+- Short skirts, mini dresses, shorts, crop tops, bare midriff, cleavage, high slits or see-through fabric (the dress must end below the knee)
+- Deformed hands or extra fingers
+- Text or watermarks
+
+FORMAT
+Vertical, same orientation as the reference. Generate the image directly without asking me any questions.
