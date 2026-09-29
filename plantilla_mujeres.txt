@@ -21,62 +21,62 @@ a clearly different face from the reference: {a smaller, slightly upturned nose|
 a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {more almond-shaped eyes|rounder, bigger eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes} and {a small beauty mark on her cheek|light freckles across her nose|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
 
 [Ropa ajustada | - Outfit | nuevas]
-fitted {black|charcoal|chocolate brown|dark green} ribbed-knit midi dress with short sleeves and a round neckline, hem at mid-calf, realistic knit texture, natural stretch creases
-fitted {black|gray|mocha|burgundy} long-sleeve jersey maxi dress with a crew neck, hem at the ankles, realistic stretch fabric texture, natural stretch creases
-fitted {black|red|white|beige|emerald green} bodycon midi dress with cap sleeves and a high round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
-fitted {cream-colored|black|sage green|dusty pink} ribbed-knit bodycon dress with a high neckline, ending at mid-calf, realistic knit texture, natural stretch creases
-fitted {black|navy|lilac|baby blue} sleeveless mock-neck ribbed maxi dress, hem at the ankles, realistic stretch fabric texture, natural stretch creases
-fitted {white|black|red} square-neck midi dress with wide straps and a high, modest neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
-fitted {black|charcoal|navy} stretch pencil midi dress with short sleeves and a high neckline, hem just below the knee, realistic fabric texture, natural stretch creases
-fitted {black|white|red} long-sleeve boat-neck midi dress, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
-fitted {black|gray|brown} jersey midi dress with short sleeves, a round neckline and a mermaid hem that flares softly at the calves, realistic stretch fabric texture, natural stretch creases
-fitted {black|white|red|cobalt blue} thin turtleneck long-sleeve bodycon midi dress, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
-fitted {white|black|beige} ribbed tank maxi dress with thick straps and a high neckline, hem at the ankles, realistic stretch fabric texture, natural stretch creases
-fitted {black|dark brown} faux-leather midi dress with short sleeves and a round neckline, hem below the knee, realistic leather sheen and creases
-fitted {beige|white|black|pink} fine-knit sweater midi dress with long sleeves and a round neckline, hem below the knee, realistic knit texture, natural stretch creases
+high-waisted {black|charcoal|chocolate brown|dark green} leggings and a fitted {white|black|beige} short-sleeve top that reaches the waistband, realistic stretch fabric texture, natural stretch creases
+{black|gray|mocha|burgundy} seamless leggings with a matching fitted long-sleeve athletic top that covers the waist, realistic stretch fabric texture, natural stretch creases
+fitted {black|red|white|beige|emerald green} short-sleeve bodycon midi dress with a high round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {cream-colored|black|sage green|dusty pink} sleeveless ribbed-knit bodycon dress with a high neckline, ending at mid-calf, realistic knit texture, natural stretch creases
+{black|navy|lilac|baby blue} flared yoga leggings, tight through the hips and thighs, with a matching fitted short-sleeve top that reaches the waistband, realistic stretch fabric texture, natural stretch creases
+high-waisted {light-wash|dark-wash|black} skinny jeans and a fitted {white|black|red} short-sleeve bodysuit with a round neckline, realistic denim and stretch texture, natural creases at the hips and knees
+tight high-waisted {black|beige|gray} stretch trousers and a fitted {white|black|pink} button-up blouse tucked in and buttoned to the collarbone, realistic fabric texture, natural creases
+high-waisted skinny jeans and a fitted {black|white|red} fine-knit short pullover with a crew neck that ends right at the waistband with no skin showing, realistic knit and denim texture, natural creases
+fitted {black|gray|brown} short-sleeve jersey midi dress with a round neckline and a mermaid hem that flares softly at the calves, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red|cobalt blue} sleeveless mock-neck ribbed maxi dress, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted square-neck {white|black|beige} ribbed bodysuit with a modest neckline tucked into high-waisted {black|brown} leggings, realistic stretch fabric texture, natural stretch creases
+shiny {black|dark brown} faux-leather leggings and a fitted {black|white} long-sleeve top tucked in, realistic leather sheen and stretch creases
+fitted {beige|white|black|pink} knit two-piece set, a short-sleeve top that reaches the waistband and matching tight long pants, realistic knit texture, natural stretch creases
+tight high-waisted {light-wash|black} flared jeans and a fitted {white|black} ribbed tank top with a high neckline, tucked in, realistic denim texture, natural creases
 fitted {black|champagne|red} stretch-satin midi dress with wide straps and a high neckline, hem at mid-calf, realistic sheen, natural stretch creases
-fitted {black|white|burgundy} wrap-style midi dress that closes high at the chest, with three-quarter sleeves, hem below the knee, realistic stretch fabric texture, natural stretch creases
-fitted {black|brown|olive} long-sleeve bodycon maxi dress with a crew neck, tight from shoulders to ankles, realistic stretch fabric texture, natural stretch creases
-fitted {black|white|red} henley-style ribbed maxi dress with long sleeves and the buttons done up, hem at the ankles, realistic ribbed texture, natural stretch creases
-fitted {black|beige} corset-style midi dress with wide straps and a high straight neckline, hem below the knee, realistic fabric texture and creases
+fitted {black|white|burgundy} wrap blouse that closes high at the chest, tucked into tight high-waisted {black|dark-wash} skinny jeans, realistic fabric texture, natural creases
+fitted {black|brown|olive} sleeveless one-piece stretch jumpsuit with a high neckline and long legs, tight from shoulders to ankles, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red} short-sleeve turtleneck top tucked into high-waisted skinny jeans, realistic stretch fabric texture, natural stretch creases
+fitted {black|beige} corset-style top with wide straps and a high straight neckline, with fitted {black|brown} faux-leather straight trousers, realistic leather sheen and creases
 fitted ribbed {white|gray|black} tank midi dress with a high crew neck, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
-fitted {gray|beige|black} ribbed-knit lounge maxi dress with short sleeves and a round neckline, hem at the ankles, realistic stretch fabric texture, natural stretch creases
-fitted {red|black|white} long-sleeve bodycon midi dress with a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
-fitted {black|white} ribbed polo-collar midi dress with short sleeves and the front buttons closed, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
-fitted {black|navy|wine} knit midi dress with elbow-length sleeves and a shallow, modest V-neck, hem at mid-calf, realistic knit texture, natural stretch creases
-fitted {black|charcoal|mocha} ruched-side jersey midi dress with short sleeves and a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+matching fitted {gray|beige|black} ribbed lounge set, a short-sleeve top that reaches the waistband and high-waisted leggings, realistic stretch fabric texture, natural stretch creases
+fitted {red|black|white} cap-sleeve bodycon midi dress with a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {black|white} ribbed mock-neck short pullover that meets the waistband of tight high-waisted {blue|black} straight jeans, no skin showing, realistic knit and denim texture, natural creases
+high-waisted {black|navy|wine} leggings and a fitted zip-up athletic jacket zipped up to the collarbone and covering the waist, realistic stretch fabric texture, natural stretch creases
 
 [Ropa | - Outfit | modelo]
-fitted {cream-colored|black|sage green|dusty pink} ribbed-knit midi dress with long sleeves and a round neckline, hem at mid-calf, realistic fabric texture, natural stretch creases
-fitted {black|charcoal|chocolate brown} ribbed-knit bodycon midi dress with a round neckline, hem below the knee, realistic fabric texture, natural stretch creases
-light-wash denim jacket worn open over a fitted {white|black|beige} ribbed maxi dress with a high neckline, realistic denim and knit texture, natural creases
-matching {soft gray|beige|light blue} cotton lounge look, a fitted jersey maxi dress with short sleeves and a cropped zip-up hoodie worn open over it, realistic cotton texture, soft natural folds
-{white|light blue} oversized linen shirt worn open over a fitted {white|beige} ribbed tank midi dress with a high neckline, realistic linen wrinkles
-fitted {black|brown|burgundy} faux-leather midi dress with long sleeves and a round neckline, hem below the knee, realistic leather sheen and creases
+fitted {cream-colored|black|sage green|dusty pink} ribbed-knit midi dress with short sleeves, hem at mid-calf, realistic fabric texture, natural stretch creases
+fitted {black|charcoal|chocolate brown} sleeveless ribbed-knit bodycon midi dress with a round neckline, hem below the knee, realistic fabric texture, natural stretch creases
+high-waisted light-wash straight-leg jeans and a fitted {white|black|beige} cotton t-shirt tucked in, realistic denim texture, natural creases at the hips and knees
+matching {soft gray|beige|light blue} cotton lounge set, a fitted top, a zip-up hoodie closed to the chest and tight long jogger pants, realistic cotton texture, soft natural folds
+{white|light blue} oversized linen shirt worn open over a fitted {white|beige} high-neck tank top, with tight high-waisted jeans, realistic linen wrinkles
+fitted {black|brown|burgundy} faux-leather straight trousers and a tucked-in {white|black} fitted long-sleeve top, realistic leather sheen and creases
 {emerald green|navy|black|champagne} satin midi dress with wide straps and a high neckline, fitted at the waist and hips, hem at mid-calf, realistic satin sheen and soft draping
-fitted {black|gray|brown} jersey maxi dress with a light zip-up jacket worn open over it, realistic stretch fabric texture
+high-waisted {black|gray|brown} leggings with a matching fitted long-sleeve top and a light open zip-up jacket, realistic stretch fabric texture
 {small floral|tiny polka-dot|gingham} fitted cotton midi sundress with wide straps and a modest square neckline, hem below the knee, realistic fabric texture, gentle wrinkles
-fitted {beige|cream|black} tailored sheath midi dress with short sleeves, hem below the knee, realistic fabric texture, natural creases at the waist
-{chunky cream|soft camel|light gray} fitted knit sweater dress with long sleeves, hem at mid-calf, realistic wool texture with visible stitches
-fitted {white|black|red} square-neck midi dress with wide straps and a high, modest neckline, hem at mid-calf, realistic fabric texture, natural creases
-fitted {red|white|black} midi dress with short puff sleeves and a round neckline, hem below the knee, realistic fabric texture, natural creases
-long {beige|camel} trench coat worn open over a fitted {black|white} midi dress ending below the knee, realistic fabric texture and natural drape
-fitted {pink|white|light blue} ribbed button-front knit midi dress with long sleeves and all buttons closed, hem at mid-calf, realistic knit texture
-{black|white} fitted high-neck sleeveless maxi dress with a slightly flared hem at the ankles, realistic fabric texture, natural creases
-{olive|khaki|black} fitted utility shirt dress with a collar, buttoned up and belted at the waist, hem below the knee, realistic cotton texture, natural folds
-{lilac|mint|baby blue} fitted ribbed maxi dress with short sleeves and a round neckline, realistic stretch fabric texture
-{white|cream} fitted cotton midi dress with a lace-trimmed high neckline and short sleeves, hem below the knee, realistic lace and cotton texture
-{black|burgundy|forest green} fitted velvet midi dress with long sleeves and a round neckline, realistic velvet texture with a soft sheen
-{white|beige|light gray} fitted cotton t-shirt maxi dress, hem at the ankles, realistic cotton texture, soft natural folds
-{gray|black} oversized hoodie worn over a fitted jersey maxi dress, realistic cotton fleece and jersey texture
-fitted {denim|black} corset-style midi dress with wide straps and a high straight neckline, hem below the knee, realistic fabric texture, natural creases
-{striped|plain white} fitted long-sleeve knit maxi dress with a boat neckline, realistic fabric texture, natural creases
-{camel|black|gray} fitted thin turtleneck sweater dress, hem at mid-calf, realistic knit texture
-{white|light pink|butter yellow} fitted wrap midi dress that closes high at the chest, with short sleeves, hem below the knee, realistic fabric texture, natural creases
-oversized {denim|brown suede} jacket over a fitted {white|black} ribbed midi dress with a high neckline, realistic fabric texture and natural drape
-{black|navy} fitted midi dress with elbow-length sleeves and a shallow, modest V-neck, hem at mid-calf, realistic fabric texture, natural creases
+straight-leg {beige|cream|black} tailored trousers fitted at the hips and a fitted {white|black} short-sleeve bodysuit, realistic fabric texture, natural creases at the waist
+{chunky cream|soft camel|light gray} short knit pullover that ends right at the waistband of tight light-wash jeans with no skin showing, realistic wool texture with visible stitches
+fitted {white|black|red} square-neck top with a modest neckline and high-waisted {blue|black} mom jeans, realistic fabric texture, natural creases
+{red|white|black} fitted short-sleeve blouse with a boat neckline tucked into high-waisted skinny jeans, realistic fabric texture, natural creases
+long {beige|camel} trench coat worn open over a fitted {black|white} sleeveless midi dress ending below the knee, realistic fabric texture and natural drape
+fitted {pink|white|light blue} ribbed cardigan buttoned up as a top with fitted high-waisted {white|beige} trousers, realistic knit texture
+{black|white} fitted high-neck sleeveless top and high-waisted flared jeans, realistic denim texture, natural creases
+{olive|khaki|black} fitted cargo pants and a fitted {white|black} short-sleeve t-shirt tucked in, realistic cotton texture, natural folds
+{lilac|mint|baby blue} fitted short-sleeve top and matching high-waisted capri leggings ending at mid-calf, realistic stretch fabric texture
+{white|cream} lace-trimmed fitted blouse with a high neckline tucked into light-wash jeans, realistic lace and denim texture
+{black|burgundy|forest green} fitted velvet midi dress with short sleeves, realistic velvet texture with a soft sheen
+{white|beige|light gray} fitted cotton t-shirt maxi dress with short sleeves, hem at the ankles, realistic cotton texture, soft natural folds
+{gray|black} oversized hoodie with fitted high-waisted leggings, realistic cotton fleece texture
+fitted {denim|black} corset-style top with wide straps and a high straight neckline, with high-waisted {black|beige} trousers, realistic fabric texture, natural creases
+{striped|plain white} fitted long-sleeve top with a fitted {black|beige} knit midi skirt ending at mid-calf, realistic fabric texture, natural creases
+{camel|black|gray} fitted turtleneck sweater tucked into high-waisted jeans, realistic knit texture
+{white|light pink|butter yellow} wrap blouse that closes high at the chest with a fitted {denim|black} pencil midi skirt ending below the knee, realistic fabric texture, natural creases
+oversized {denim|brown suede} jacket over a fitted {white|black} short-sleeve midi dress ending below the knee, realistic fabric texture and natural drape
+{black|navy} fitted short-sleeve top with a round neckline and {white|light-wash} high-waisted skinny jeans, realistic fabric texture, natural creases
 {white|sky blue|pale yellow} fitted button-front midi dress with short sleeves and all buttons closed, hem below the knee, realistic cotton texture, gentle wrinkles
-{heather gray|black|white} fitted ribbed tank maxi dress with thick straps and a high neckline, realistic ribbed texture
+{heather gray|black|white} fitted ribbed tank bodysuit with a high neckline and {black|beige} high-waisted fitted trousers, realistic ribbed texture
 
 [Pose | - Pose | nuevas]
 three-quarter view, weight on one leg, one hand on hip, looking over her shoulder at the camera with a soft, confident expression
@@ -153,7 +153,7 @@ AVOID
 - Smoothed, plastic, waxy or airbrushed skin
 - Doll-like, porcelain or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
 - Illustration, CGI or 3D look
-- Short skirts, mini dresses, shorts, crop tops, bare midriff, cleavage, high slits or see-through fabric (the dress must end below the knee)
+- Short skirts, mini dresses, long-sleeve dresses, shorts, crop tops, bare midriff, cleavage, high slits or see-through fabric (the outfit must cover her down to below the knee and the top must reach the waistband)
 - Deformed hands or extra fingers
 - Text or watermarks
 
