@@ -10,7 +10,7 @@ A new fashion photo of a different model who closely resembles the woman in my r
 MODEL
 - Clearly an adult woman in her mid-20s or older, with mature adult facial features (defined cheekbones and jawline, adult facial proportions), even if the reference looks younger
 - Similar: skin tone, eye color, hair (color, length, style)
-- Body: a fit, gym-toned hourglass figure, like a woman who trains glutes and legs regularly: large, round, lifted and firm glutes, noticeably wide curvy hips, full toned thighs and a small defined waist, curvy but still natural and believable
+- Body: a naturally curvy hourglass figure, not athletic: very wide, rounded hips, large, full, round glutes, full soft thighs and a smaller waist, with soft natural curves and no visible muscle definition, like a real curvy woman who does not go to the gym, still natural and believable
 - She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
 - Real-person details: slight natural facial asymmetry, visible skin pores, subtle natural unevenness in skin tone (without redness), faint under-eye shadows, flyaway hairs and a few loose strands
 
@@ -106,6 +106,7 @@ IMAGE QUALITY
 AVOID
 - The same face as the reference (she must look like a different person)
 - Flat or small glutes, narrow or straight hips, a boyish figure
+- An athletic, muscular or gym-toned body (visible abs, defined arms or shoulders, sculpted or muscular legs)
 - Cartoonish or clearly surgically enhanced body proportions
 - Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); she must clearly look like an adult woman
 - Freckles, rosy or pink cheeks, blush or a reddish nose
