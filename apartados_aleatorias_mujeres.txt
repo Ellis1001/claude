@@ -1,0 +1,104 @@
+﻿# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+# [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
+
+[INICIO]
+Generate a new photorealistic image based on the photo I've attached.
+
+GOAL
+A new fashion photo of a different model who closely resembles the woman in my reference, as if she were another model from the same photoshoot, with a different face.
+
+MODEL
+- Clearly an adult woman in her mid-20s or older, with mature adult facial features (defined cheekbones and jawline, adult facial proportions), even if the reference looks younger
+- Similar: skin tone, eye color, hair (color, length, style)
+- Body: a fit, gym-toned hourglass figure, like a woman who trains glutes and legs regularly: large, round, lifted and firm glutes, noticeably wide curvy hips, full toned thighs and a small defined waist, curvy but still natural and believable
+- She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
+
+CHANGE
+
+[Cara | - Face | nuevas]
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}
+a clearly different face from the reference: {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks} and {fuller lips|thinner lips|a more defined cupid's bow|a wider smile}
+a clearly different face from the reference: {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+
+[Ropa ajustada | - Outfit | nuevas]
+high-waisted {black|charcoal|chocolate brown|dark green} leggings and a fitted {white|black|beige} short-sleeve top that reaches the waistband, realistic stretch fabric texture, natural stretch creases
+{black|gray|mocha|burgundy} seamless leggings with a matching fitted long-sleeve athletic top that covers the waist, realistic stretch fabric texture, natural stretch creases
+fitted {black|red|white|beige|emerald green} short-sleeve bodycon midi dress with a high round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {cream-colored|black|sage green|dusty pink} sleeveless ribbed-knit bodycon dress with a high neckline, ending at mid-calf, realistic knit texture, natural stretch creases
+{black|navy|lilac|baby blue} flared yoga leggings, tight through the hips and thighs, with a matching fitted short-sleeve top that reaches the waistband, realistic stretch fabric texture, natural stretch creases
+high-waisted {light-wash|dark-wash|black} skinny jeans and a fitted {white|black|red} short-sleeve bodysuit with a round neckline, realistic denim and stretch texture, natural creases at the hips and knees
+tight high-waisted {black|beige|gray} stretch trousers and a fitted {white|black|pink} button-up blouse tucked in and buttoned to the collarbone, realistic fabric texture, natural creases
+high-waisted skinny jeans and a fitted {black|white|red} fine-knit short pullover with a crew neck that ends right at the waistband with no skin showing, realistic knit and denim texture, natural creases
+fitted {black|gray|brown} short-sleeve jersey midi dress with a round neckline and a mermaid hem that flares softly at the calves, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red|cobalt blue} sleeveless mock-neck ribbed maxi dress, hem at the ankles, realistic stretch fabric texture, natural stretch creases
+fitted square-neck {white|black|beige} ribbed bodysuit with a modest neckline tucked into high-waisted {black|brown} leggings, realistic stretch fabric texture, natural stretch creases
+shiny {black|dark brown} faux-leather leggings and a fitted {black|white} long-sleeve top tucked in, realistic leather sheen and stretch creases
+fitted {beige|white|black|pink} knit two-piece set, a short-sleeve top that reaches the waistband and matching tight long pants, realistic knit texture, natural stretch creases
+tight high-waisted {light-wash|black} flared jeans and a fitted {white|black} ribbed tank top with a high neckline, tucked in, realistic denim texture, natural creases
+fitted {black|champagne|red} stretch-satin midi dress with wide straps and a high neckline, hem at mid-calf, realistic sheen, natural stretch creases
+fitted {black|white|burgundy} wrap blouse that closes high at the chest, tucked into tight high-waisted {black|dark-wash} skinny jeans, realistic fabric texture, natural creases
+fitted {black|brown|olive} sleeveless one-piece stretch jumpsuit with a high neckline and long legs, tight from shoulders to ankles, realistic stretch fabric texture, natural stretch creases
+fitted {black|white|red} short-sleeve turtleneck top tucked into high-waisted skinny jeans, realistic stretch fabric texture, natural stretch creases
+fitted {black|beige} corset-style top with wide straps and a high straight neckline, with fitted {black|brown} faux-leather straight trousers, realistic leather sheen and creases
+fitted ribbed {white|gray|black} tank midi dress with a high crew neck, hem at mid-calf, realistic stretch fabric texture, natural stretch creases
+matching fitted {gray|beige|black} ribbed lounge set, a short-sleeve top that reaches the waistband and high-waisted leggings, realistic stretch fabric texture, natural stretch creases
+fitted {red|black|white} cap-sleeve bodycon midi dress with a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases
+fitted {black|white} ribbed mock-neck short pullover that meets the waistband of tight high-waisted {blue|black} straight jeans, no skin showing, realistic knit and denim texture, natural creases
+high-waisted {black|navy|wine} leggings and a fitted zip-up athletic jacket zipped up to the collarbone and covering the waist, realistic stretch fabric texture, natural stretch creases
+
+[Pose | - Pose | nuevas]
+three-quarter view, weight on one leg, one hand on hip, looking over her shoulder at the camera with a soft, confident expression
+standing facing the camera, weight shifted onto one hip, arms relaxed at her sides, looking straight into the lens with a small natural smile
+turned slightly to the side, one hand running through her hair, the other arm relaxed, looking at the camera with a calm, confident expression
+leaning one shoulder against the nearest wall, legs crossed at the ankles, arms loosely folded, soft smile toward the camera
+walking toward the camera mid-step, arms swinging naturally, looking just past the lens with a relaxed expression
+sitting on the nearest chair or ledge, legs crossed, hands resting on her knee, body angled toward the camera, gentle smile
+back partly to the camera, looking back over her shoulder, one hand touching her hair, soft playful smile
+three-quarter view, both hands resting lightly on her lower back at the waist, chin slightly raised, confident expression
+tucking a strand of hair behind her ear, head slightly tilted, genuine warm smile, looking at the camera
+arms raised adjusting her hair, elbows up, body turned three-quarters, relaxed confident expression
+standing with one hand resting on the back of the nearest chair or railing, weight on one leg, looking at the camera with a friendly smile
+mid-laugh, head tilted slightly back, one hand near her face, a natural candid moment
+standing with feet apart and both hands on her hips, confident expression, looking straight into the lens
+adjusting the strap or sleeve of her outfit, glancing up at the camera, candid feel
+holding a coffee cup in one hand, the other hand resting on her hip, relaxed three-quarter stance, soft smile
+looking down at the phone in her hand and smiling at the screen, body turned three-quarters, candid moment
+one leg crossed in front of the other, hands clasped loosely in front of her, sweet natural smile
+side profile looking into the distance, face turned slightly toward the camera, relaxed natural expression
+one knee slightly bent, fingertips touching her collarbone, looking at the camera with a soft smile
+sitting sideways with her knees together and hands on her lap, shoulders relaxed, looking at the camera with a calm smile
+
+[FINAL]
+KEEP EXACTLY THE SAME
+- The kind of place of the reference (if a setting is described above, use that setting instead), but not an exact copy: change small details such as the camera angle, a different corner of the place or some objects moved or different
+- Lighting: direction, softness, intensity, color temperature
+- Lens look, depth of field and framing style
+- Color grading, contrast, white balance, grain
+- Natural, matte skin with small imperfections, like an unedited phone photo (no smoothing or beauty filter)
+
+IMAGE QUALITY
+- Low-quality look, like a phone photo that has been forwarded on WhatsApp several times and lost quality each time
+- Low resolution and soft, not sharp: fine details such as hair strands, skin texture and fabric texture look smeared
+- Visible JPEG compression artifacts: blocky patches in shadows and flat areas like walls or sky, faint halos around edges and slight color banding in gradients
+- The face, body and outfit are still clearly recognizable (degraded, but not blurred beyond recognition)
+
+AVOID
+- The same face as the reference (she must look like a different person)
+- Flat or small glutes, narrow or straight hips, a boyish figure
+- Cartoonish or clearly surgically enhanced body proportions
+- Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); she must clearly look like an adult woman
+- Freckles, rosy or pink cheeks, blush or a reddish nose
+- Warm, yellow or sepia color cast not present in the original
+- Shiny, glossy, oily or overly glowing skin
+- Smoothed, plastic, waxy or airbrushed skin
+- Doll-like, porcelain or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
+- Illustration, CGI or 3D look
+- Short skirts, mini dresses, long-sleeve dresses, shorts, crop tops, bare midriff, cleavage, high slits or see-through fabric (the outfit must cover her down to below the knee and the top must reach the waistband)
+- Deformed hands or extra fingers
+- Sharp, crisp, HD or high-resolution look, or a clean professional camera image
+- Text or watermarks
+
+FORMAT
+Vertical, same orientation as the reference. Generate the image directly without asking me any questions.
