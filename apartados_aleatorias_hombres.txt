@@ -44,7 +44,7 @@ fitted {white|light blue} linen shirt with the sleeves rolled up and slim {beige
 fitted {black|gray} seamless training t-shirt with slim black track pants, realistic fabric texture, natural creases
 fitted {burgundy|forest green|navy} fine-knit sweater with slim dark jeans, realistic fabric texture, natural creases
 
-[Ropa | - Outfit | modelo]
+[Ropa | - Outfit | ninguno]
 the fitted outfit described with the scene, realistic fabric texture and natural creases
 
 [Pose | - Pose | nuevas]
@@ -69,7 +69,7 @@ adjusting the cuff of his sleeve, glancing up at the camera with a slight smile
 one hand lightly touching his jaw, looking at the camera with a calm, confident expression
 sitting sideways on the nearest chair, one arm resting on the backrest, relaxed natural smile
 
-[Escena | - | modelo]
+[Escena | - | ninguno]
 Pose: mirror selfie. Standing in front of a full-length mirror, body at a slight three-quarter angle, weight on one leg, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free arm relaxed at his side, looking toward the mirror with a calm, confident smile // Setting: a real, lived-in bedroom with a full-length mirror leaning against the wall, part of an unmade bed with neutral linens, a chair with a few clothes on it, {a plant by the window|a small stack of books on the floor|a backpack hanging on the chair}, {soft natural daylight from the side|warm late-afternoon light from the window|soft overcast light with a small lamp switched on} and a few faint smudges on the mirror // Outfit: {a fitted white crew-neck t-shirt with dark-wash slim jeans|a fitted black ribbed long-sleeve top with slim black joggers|a fitted gray henley with slim light-wash jeans}
 Pose: mirror selfie at the bathroom sink, body turned slightly, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, free hand touching his hair, relaxed natural expression // Setting: a real home bathroom with a large mirror above the sink, a few grooming products and a toothbrush cup on the counter, {a folded towel|a comb and a razor|a small plant on the windowsill}, {soft daylight from a small frosted window|warm light from the bulbs above the mirror} and light water spots on the mirror // Outfit: {a fitted gray t-shirt with slim black joggers|a fitted white ribbed tank top with slim gray sweatpants|a fitted navy henley with slim dark jeans}
 Pose: mirror selfie. Standing in an elevator, one shoulder against the mirrored wall, holding a smartphone in a plain case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, calm confident expression // Setting: a real apartment building elevator with mirrored walls, {brushed steel panels|wood-look panels} and a button panel, a slightly worn floor, {flat overhead lighting|slightly warm overhead lighting} and fingerprints on the mirror // Outfit: {a fitted white shirt tucked into slim black trousers|a fitted black crew-neck t-shirt with slim beige chinos|a fitted navy knit polo with slim gray trousers}
