@@ -13,6 +13,7 @@ MODEL
 - Body: a naturally curvy hourglass figure, not athletic: very wide, rounded hips, large, full, round glutes, full soft thighs and a smaller waist, with soft natural curves and no visible muscle definition, like a real curvy woman who does not go to the gym, still natural and believable
 - She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
 - Real-person details: slight natural facial asymmetry, visible skin pores, subtle natural unevenness in skin tone (without redness), faint under-eye shadows, flyaway hairs and a few loose strands
+- Everyday makeup like a real woman's selfie: defined natural brows, a little mascara, matte skin, nude or natural lip color, cheeks and cheekbones the same even tone as the rest of her face (no blush, no pink or rosy color, no highlighter glow)
 
 CHANGE
 
@@ -48,12 +49,19 @@ matching fitted {gray|beige|black} ribbed lounge set, a short-sleeve top that re
 fitted {red|black|white} cap-sleeve bodycon midi dress with a round neckline, hem below the knee, realistic stretch fabric texture, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
 fitted {black|white} ribbed mock-neck short pullover that meets the waistband of tight high-waisted {blue|black} straight jeans, no skin showing, realistic knit and denim texture, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
 high-waisted {black|navy|wine} leggings and a fitted zip-up athletic jacket zipped up to the collarbone and covering the waist, realistic stretch fabric texture, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+high-waisted {medium-wash|light-wash} skinny jeans with slight fading on the thighs and knees and a small leather brand patch at the back waistband, with a fitted denim {sleeveless|short-sleeve} top with a high straight neckline that reaches the waistband, denim-on-denim look, visible denim stitching, natural creases at the hips and knees, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+fitted {yellow|white|lilac|sage green} ditsy floral-print halter midi dress with a high neckline and no slit, hem at mid-calf, soft stretch jersey fabric, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+{dark teal|black|mocha|burgundy} ribbed seamless one-piece jumpsuit with a high round neckline and wide straps, tight from shoulders to ankles, fine visible ribbing, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+high-waisted dark-wash skinny jeans with faded whiskering on the thighs and slight bunching at the ankles, and a fitted {navy|black|white} smocked short-sleeve top with a tiny ditsy floral print, long enough to tuck into the waistband, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+high-waisted light-wash skinny jeans with {a row of decorative buttons at the waist|a double-button waistband}, and a fitted {pink|white|lilac} floral-print corset-style short-sleeve top with a high straight neckline that reaches the waistband, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
 
 [Detalles | - Details | nuevas]
 {a thin gold necklace|a thin silver chain with a small pendant|small hoop earrings|small stud earrings}, {a smartwatch|a thin bracelet|a hair tie on her wrist|a couple of thin rings}, {flyaway hairs and a few loose strands crossing her face|slightly frizzy hair with loose strands|hair a little messy on one side}
 {thin-framed glasses with faint reflections on the lenses|small hoop earrings|a thin gold necklace}, {a hair tie on her wrist|a thin bracelet|a smartwatch with a worn strap}, {flyaway hairs around her hairline|a few loose strands falling over her shoulder|slightly uneven hair parting}
 {a couple of thin rings|a thin silver chain with a small pendant|small stud earrings}, {natural nails with a slightly chipped polish|short natural nails|simple nude nails}, {flyaway hairs and a few loose strands crossing her face|slightly frizzy hair with loose strands|hair a little messy on one side}
 {a smartwatch|a thin bracelet|a hair tie on her wrist}, {a thin gold necklace|small hoop earrings|no jewelry except a small ring}, {light everyday makeup that looks slightly worn after a few hours|minimal makeup with natural brows|a little mascara and lip balm only}
+{stacked gold bangles on one wrist|a few colorful friendship bracelets and a thin gold bracelet|a thin gold bracelet and a ring}, {long almond-shaped nails painted red|long nude nails|short red nails}, {sleek hair pulled back into a low ponytail|long straight dark hair with a middle part|wavy hair with messy grown-out balayage ends}
+{a small shoulder bag with a thin strap|thin-framed glasses|a thin necklace with a tiny pendant}, {a small fine-line tattoo on her shoulder|a tiny tattoo on her wrist|no tattoos}, and if her feet are visible {white sneakers|nude peep-toe heels|gold strappy sandals with a simple pedicure}
 
 [Pose | - Pose | nuevas]
 three-quarter view, weight on one leg, one hand on hip, looking over her shoulder at the camera with a soft, confident expression
@@ -80,6 +88,11 @@ hands clasped behind her back, standing straight, head tilted slightly, looking 
 adjusting the fit of her outfit at the hips with both hands, looking at the camera with a small, slightly shy smile, like a frame from a try-on video
 one hand touching her hair near her neck, the other arm relaxed at her side, chin slightly down, small slightly asymmetric smile
 caught mid-movement while turning toward the camera, hair still moving, natural candid expression that is not a posed smile
+leaning her back and one shoulder against the wall, one knee raised with that foot resting on a step or against the wall behind her, hands loosely clasped at her waistband with her fingers fidgeting, lips closed, calm direct gaze without smiling
+both hands behind her head, elbows out, hips tilted to one side with her feet apart, small closed-mouth smile, head slightly tilted
+body turned in profile, torso twisted slightly back toward the camera to show the curve of her hips, looking down at the phone in her hands with a soft neutral expression
+one hand holding the strap of a shoulder bag, the other hand raised mid-gesture near her shoulder, big genuine smile showing her teeth, caught mid-moment
+one hand resting on top of her head in her hair, hips turned three-quarters away while her shoulders face the camera, lips slightly pressed together, relaxed confident look
 
 [FINAL]
 KEEP EXACTLY THE SAME
@@ -96,6 +109,8 @@ REALISM (like a real, unedited photo taken with a phone)
 - A lived-in place with small everyday details and a bit of clutter that fits the location (things on a counter, a bag on a hook, a rumpled bed, smudges on a mirror, leaves or dirt on the ground)
 - Hands relaxed and natural, with realistic nails and knuckles
 - Natural, slightly asymmetric expression, not a posed model smile
+- Hands doing something small and real (fidgeting with her fingers, holding a bag strap, fixing her hair), not stiff model hands
+- Ordinary, slightly imperfect surfaces: scuffed or uneven painted walls, worn tiles, a light switch or a cable in view
 
 IMAGE QUALITY
 - Low-quality look, like a phone photo that has been forwarded on WhatsApp several times and lost quality each time
@@ -109,7 +124,10 @@ AVOID
 - An athletic, muscular or gym-toned body (visible abs, defined arms or shoulders, sculpted or muscular legs)
 - Cartoonish or clearly surgically enhanced body proportions
 - Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); she must clearly look like an adult woman
-- Freckles, rosy or pink cheeks, blush or a reddish nose
+- Freckles, rosy, pink or flushed cheeks or cheekbones, visible blush, or a reddish nose
+- Glowing highlighter on the cheekbones, heavy contour or a made-up 'beauty filter' face
+- Perfectly smooth, uniform hair with no flyaways
+- Oversaturated colors or an HDR look
 - Warm, yellow or sepia color cast not present in the original
 - Shiny, glossy, oily or overly glowing skin
 - Smoothed, plastic, waxy or airbrushed skin
