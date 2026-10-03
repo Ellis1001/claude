@@ -1,0 +1,139 @@
+﻿# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+# [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
+
+[INICIO]
+Generate a new photorealistic image based on the photo I've attached.
+
+GOAL
+A new candid, everyday photo of a different woman who closely resembles the woman in my reference, as if a friend snapped it with their phone on an ordinary warm day. It must look like a real, unedited smartphone photo that was shared on social media, not a fashion shoot and not AI.
+
+MODEL
+- Clearly an adult woman in her mid-20s or older, with mature adult facial features (defined cheekbones and jawline, adult facial proportions), even if the reference looks younger
+- Similar: skin tone, eye color, hair (color, length, style)
+- Body: a naturally curvy hourglass figure, not athletic: very wide, rounded hips, large, full, round glutes, full soft thighs and a smaller waist, with soft natural curves and no visible muscle definition, like a real curvy woman who does not go to the gym, still natural and believable
+- She must be a new, distinct person with her own face: clearly different facial features, so nobody would think it is the same woman (only the overall look and style are similar)
+- Real-person details: slight natural facial asymmetry, visible skin pores, subtle natural unevenness in skin tone (without redness), faint under-eye shadows, flyaway hairs and a few loose strands
+- Everyday makeup like a real woman's selfie: defined natural brows, a little mascara, matte skin, nude or natural lip color, cheeks and cheekbones the same even tone as the rest of her face (no blush, no pink or rosy color, no highlighter glow)
+
+CHANGE
+
+[Cara | - Face | nuevas]
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}
+a clearly different face from the reference: {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows|slightly uneven brows} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes}, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks} and {fuller lips|thinner lips|a more defined cupid's bow|a wider smile}
+a clearly different face from the reference: {a smaller, slightly upturned nose|a straighter, slightly longer nose|a wider, softer nose|a narrower nose with a higher bridge}, {straighter, thicker brows|higher, more arched brows|softer, thinner brows|slightly uneven brows}, {fuller lips|thinner lips|a more defined cupid's bow|a wider smile} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+a clearly different face from the reference: {a narrower, more oval|a rounder, softer|a more heart-shaped|a slightly longer|a squarer, more defined} face shape, {a sharper jawline|a softer, rounder jawline|a more pointed chin|a wider chin|higher, more prominent cheekbones|fuller, rounder cheeks}, {more almond-shaped eyes|rounder eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes} and {a small beauty mark on her cheek|a small beauty mark near her lip|a dimple when she smiles|no extra marks}
+
+[Ropa ajustada | - Outfit | nuevas]
+a fitted high-waisted {light-wash|medium-wash|black} denim midi skirt ending just below the knee, with faded seams and a slightly frayed hem, and a short fitted {white|black|baby pink|light gray} cotton t-shirt that ends right at the skirt's waistband with no skin showing, realistic denim and cotton texture, natural creases at the hips, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist|slightly faded from many washes, not brand-new|a loose thread at the hem}
+a fitted {medium-wash|dark-wash|light-wash} denim pencil skirt below the knee with the front buttons all closed, and a short fitted {white|butter yellow|lilac|mint green} ribbed short-sleeve tee that meets the waistband, realistic denim and rib texture, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist|slightly faded from many washes, not brand-new|a loose thread at the hem}
+a long fitted {light-wash|medium-wash} denim maxi skirt ending at the ankles, softly faded with whiskering at the hips, and a short fitted {white|black|navy-and-white striped} baby tee that meets the waistband, realistic denim and cotton texture, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist|slightly faded from many washes, not brand-new|a slightly stretched-out neckline}
+a fitted {white|cream} denim midi skirt ending below the knee, with a faint smudge near the hem, and a short fitted {black|navy|red} cotton t-shirt that ends at the waistband, realistic denim and cotton texture, natural creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist|slightly faded from many washes, not brand-new}
+a short fitted {mustard yellow|white|black|baby pink} cotton t-shirt with a big faded cartoon-style print on the front (a generic made-up character, slightly cracked and distorted where the fabric stretches), ending at the waistband of a fitted high-waisted {light-wash|medium-wash} denim midi skirt below the knee, realistic cotton and denim texture, natural creases
+a fitted {white|cream} high-neck ribbed tank top with an all-over black-and-white newspaper-style print, tucked into a fitted {black|light-wash} denim midi skirt below the knee, the print slightly distorted where the fabric stretches, realistic rib and denim texture, {visible seam lines and stitching|fabric slightly bunched at the waist}
+a fitted high-waisted {light-wash|black} denim midi skirt with a modest back slit and a fitted {white|black|olive} sleeveless ribbed tank top with a high crew neck tucked in, the ribs slightly uneven where they stretch, realistic denim and rib texture, {slight pilling on the fabric|fabric slightly bunched at the waist|slightly faded from many washes, not brand-new}
+a fitted {medium-wash|light-wash} denim midi skirt below the knee and a short fitted {white|gray|pink} short-sleeve henley tee with the buttons closed that meets the waistband, realistic denim and cotton texture, natural creases, {visible seam lines and stitching|slightly faded from many washes, not brand-new|a slightly stretched-out neckline}
+a short fitted {white|black|heather-gray|sky blue} cotton t-shirt that ends right at the waistband with no skin showing, with high-waisted {light-wash|medium-wash|black} skinny jeans faded at the knees and thighs, realistic denim and cotton texture, natural creases at the hips and knees, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist}
+fitted high-waisted {black|beige|white|light-wash denim} stretch capri pants ending just below the knee and a fitted {white|black|coral} sleeveless high-neck ribbed tank top tucked in, light summer fabric, realistic fabric texture, {fabric slightly bunched at the waist and joints|small wrinkles from sitting|visible seam lines and stitching}
+fitted {black|navy|charcoal} cotton capri leggings ending below the knee and a fitted sleeveless {white|gray|pink} athletic top that covers the waist, realistic stretch fabric texture, natural stretch creases, {slight pilling on the fabric|slightly faded from many washes, not brand-new|fabric slightly bunched at the waist and joints}
+fitted {heather-gray|white|black|olive} short-sleeve cotton t-shirt midi dress, hem below the knee, light jersey with small creases at the waist and hips, realistic jersey texture, {a loose thread at the hem|slight pilling on the fabric|a slightly stretched-out neckline|slightly faded from many washes, not brand-new}
+fitted {white|charcoal|olive|terracotta} sleeveless ribbed tank midi dress with a high crew neck, hem at mid-calf, realistic rib texture, natural stretch creases, {a few wrinkles across the lap from sitting|slight pilling on the fabric|fabric slightly bunched at the waist}
+a fitted {small-floral|gingham|polka-dot} cotton midi sundress with wide straps, a modest square neckline and a fitted bodice, hem below the knee, realistic cotton texture, {slightly wrinkled from wear|visible seam lines and stitching|slightly faded from many washes, not brand-new}
+a fitted {yellow|white|lilac|sage green} ditsy floral-print halter midi dress with a high neckline and no slit, hem at mid-calf, soft stretch jersey fabric, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching|fabric slightly bunched at the waist}
+a fitted {black|white|heather-gray} short-sleeve bodysuit with a fitted {medium-wash|light-wash} denim midi skirt below the knee, soft creases at the hips and behind the knees, realistic denim and stretch texture, {visible seam lines and stitching|slightly faded from many washes, not brand-new}
+high-waisted {light-wash|black} flared jeans, slightly too long and bunching over her sandals with frayed hems, and a short fitted {white|black|brown} ribbed short-sleeve top that meets the waistband, realistic denim and rib texture, natural creases, {slight pilling on the fabric|fabric slightly bunched at the waist}
+a fitted {black|navy|olive} jersey midi skirt ending below the knee with a short fitted {white|striped|yellow} short-sleeve tee tucked in, small bunching at the elastic waistband, realistic jersey texture, natural creases at the hips
+a fitted {beige|white|sage green|black} ribbed knit two-piece set, a short short-sleeve top that meets the waistband and a matching fitted midi skirt below the knee, the ribs slightly uneven over her curves, realistic knit texture, {slight pilling on the fabric|fabric slightly bunched at the waist and joints}
+a fitted {dark teal|black|mocha|burgundy} ribbed seamless one-piece jumpsuit with a high round neckline and wide straps, tight from shoulders to ankles, fine visible ribbing with a soft sheen, natural stretch creases, {slight pilling on the fabric|fabric slightly bunched at the waist and joints|slightly faded from many washes, not brand-new}
+high-waisted {medium-wash|light-wash} skinny jeans with slight fading on the thighs and knees, with a fitted denim {sleeveless|short-sleeve} top with a high straight neckline that reaches the waistband, denim-on-denim look, visible denim stitching, natural creases at the hips and knees
+a fitted {red|cobalt blue|white|black} cap-sleeve cotton midi dress with a round neckline, hem below the knee, light stretch cotton with small creases at the waist, realistic fabric texture, {a loose thread at the hem|slightly faded from many washes, not brand-new}
+a short fitted {navy-and-white|black-and-white|red-and-white} striped short-sleeve tee that meets the waistband, with a fitted {black|light-wash} denim midi skirt below the knee, the stripes bending slightly over her curves, realistic cotton and denim texture, {slight pilling on the fabric|visible seam lines and stitching}
+high-waisted {black|gray|navy} cotton leggings, a little faded at the knees, and a short fitted {white|lilac|mint green} cotton tee that meets the waistband, realistic cotton texture, natural stretch creases, {slight pilling on the fabric|fabric slightly bunched at the waist and joints}
+
+[Detalles | - Details | nuevas]
+{a thin gold necklace|a thin silver chain with a small pendant|small hoop earrings|small stud earrings}, {a thin bracelet|a black hair tie on her wrist|a couple of thin rings}, {flyaway hairs and a few loose strands crossing her face|slightly frizzy hair with loose strands|hair a little messy on one side}
+{thin-framed glasses with faint reflections on the lenses|small hoop earrings|a thin gold necklace}, {a hair tie on her wrist|a thin bracelet|a smartwatch with a worn strap}, {flyaway hairs around her hairline|a few loose strands falling over her shoulder|slightly uneven hair parting}
+{a couple of thin rings|a thin silver chain with a small pendant|small stud earrings}, {long almond nails with slightly chipped red polish|long almond nails with a worn white chrome finish|short natural nails|simple nude nails with slight wear at the tips}, {a small fine-line tattoo on her inner wrist|a tiny tattoo on her forearm|no tattoos}
+{a thin bracelet|a hair tie on her wrist|a thin ring}, {a thin gold necklace|small hoop earrings|chunky gold earrings}, {hair with grown-out highlights and darker roots|long straight dark hair with a middle part and uneven ends|slicked-back hair in a low bun with a few loose strands}
+{stacked gold bangles on one wrist|a few colorful friendship bracelets and a thin gold bracelet|a thin gold bracelet and a ring}, {long almond-shaped nails painted red|long nude nails|short red nails with a chipped corner}, {a small fine-line tattoo on her collarbone|a small tattoo on her shoulder|no tattoos}
+{a small worn shoulder bag with a thin strap|thin-framed glasses|a delicate head chain}, {a small fine-line tattoo on her shoulder|a tiny tattoo on her wrist|no tattoos}, and if her feet are visible {worn white sneakers with creases and a bit of dirt|flat leather sandals|plain flip-flops}
+
+[Pose | - Pose | nuevas]
+caught mid-turn, glancing back at the camera over her shoulder, hair swinging, one hand resting lightly on the side of her skirt or hip, small closed-mouth smile
+standing with weight on one leg and the other knee bent slightly inward, both hands loosely holding the strap of a small shoulder bag in front of her, shy half-smile
+leaning forward a little with one hand on her knee, laughing at something off-camera, a natural candid moment
+gathering her hair up into a messy bun with both hands, elbows up, a hair tie between her teeth, looking sideways
+both hands behind her neck lifting her hair, elbows out, standing straight with weight slightly on one leg, neutral calm expression with lips relaxed, looking straight into the lens
+back three-quarters to the camera, looking back over her shoulder, one hand tugging at the waistband of her skirt or leggings, soft closed-lip smile
+sitting on the edge of a step or ledge with knees together and ankles crossed to one side, hands resting on her lap, looking at the camera with a calm smile
+leaning back against a wall with one foot flat against it, hands loosely clasped at her waistband with her fingers fidgeting, lips closed, calm direct gaze without smiling
+fanning herself with one hand because of the heat, squinting a little, natural amused expression
+walking away from the camera and looking back over her shoulder mid-step, candid smile, hair moving
+squatting down with knees together to fix the strap of her sandal, looking up at the camera with a small smile
+three-quarter view, smoothing the front of her top over the waistband with both hands, looking down at it, like a frame from a try-on video
+holding a cold bottle of water against the side of her neck, eyes half closed, relaxed expression
+sitting sideways on a chair with one arm over the backrest, legs crossed, chin resting on her forearm, soft smile
+standing with her thumbs hooked in the front pockets or waistband, shoulders slightly shrugged, playful smile
+talking on the phone held to her ear, mid-sentence, looking away from the camera, natural unposed moment
+front-camera selfie with her arm stretched toward the camera and visible in the foreground, slightly distorted by the wide lens, other arm resting on the backrest of a sofa, small closed-lip smile
+mirror selfie, holding a phone in a worn case at face height, looking at the phone screen instead of the mirror, serious neutral expression, lips slightly parted
+mirror selfie, body turned three-quarters, one hand on her hip, phone covering only the side of her face, small asymmetric smile
+body turned in profile, torso twisted slightly back toward the camera to show the curve of her hips, looking down at the phone in her hands with a soft neutral expression
+one hand shading her eyes from the sun, looking into the distance with a slight smile
+pushing her hair back off her face with both hands, mid-laugh, head tilted slightly
+standing with one hip popped, holding an iced drink in one hand, the other hand in her hair, looking straight at the camera
+one hand holding the strap of a shoulder bag, the other hand raised mid-gesture near her shoulder, big genuine smile showing her teeth, caught mid-moment
+leaning in a doorway, one shoulder on the frame, arms loosely crossed, relaxed half-smile toward the camera
+
+[FINAL]
+KEEP EXACTLY THE SAME
+- The kind of place of the reference (if a setting is described above, use that setting instead), but not an exact copy: change small details such as the camera angle, a different corner of the place or some objects moved or different
+- Lighting: direction, softness, intensity, color temperature
+- Lens look, depth of field and framing style
+- Color grading, contrast, white balance, grain
+- Natural, matte skin with small imperfections, like an unedited phone photo (no smoothing or beauty filter)
+
+REALISM (like a real, unedited photo taken with a phone)
+- Casual amateur framing: slightly off-center or slightly tilted, as if taken quickly by a friend, with part of her body or feet sometimes cut off by the frame
+- Phone camera look: wide-angle perspective with slight distortion near the edges, background mostly in focus (no creamy professional bokeh), bright areas such as windows or sky blown out to white, slight noise in the shadows
+- In front-camera selfies: slight wide-angle distortion, the arm closest to the camera looks bigger. In mirror selfies: a real phone in a worn, slightly yellowed case, fingerprints or smudges on the mirror, the mirror frame or a door frame cutting into the edge of the picture
+- Ordinary, imperfect light coming from the place itself (window light, a ceiling lamp, overcast daylight, hard sun or dappled shadows from trees falling across her body), not studio lighting
+- A lived-in, specific place with everyday clutter at the edges of the frame (a plastic crate, a cooler, a cable, shoes, a rumpled bed, things on a counter), weathered walls, uneven grass, worn tiles or a light switch in view
+- Her own fresh, light warm-weather clothes (breathable cotton, jersey, light denim), fitted to her real body and already worn many times: small wrinkles at the waist, hips and knees, visible seams, a little pilling, never brand-new; prints look faded, cracked and distorted where the fabric stretches
+- Personal details that make her a real person: small tattoos, nails with a slightly worn design, simple jewelry, a hair tie on her wrist, dyed hair with grown-out roots
+- Hands doing something small and real (holding the phone, pulling at a waistband, lifting her hair, gripping a bag strap, fidgeting with her fingers), with realistic nails and knuckles, never stiff model hands
+- Natural, slightly asymmetric expression: often neutral or a small closed-mouth smile, not a posed model smile
+
+IMAGE QUALITY
+- Low-quality look, like a phone photo that has been forwarded on WhatsApp several times and lost quality each time
+- Low resolution and soft, not sharp: fine details such as hair strands, skin texture and fabric texture look smeared
+- Visible JPEG compression artifacts: blocky patches in shadows and flat areas like walls or sky, faint halos around edges and slight color banding in gradients
+- The face, body and outfit are still clearly recognizable (degraded, but not blurred beyond recognition)
+
+AVOID
+- The same face as the reference (she must look like a different person)
+- Flat or small glutes, narrow or straight hips, a boyish figure
+- An athletic, muscular or gym-toned body (visible abs, defined arms or shoulders, sculpted or muscular legs)
+- Cartoonish or clearly surgically enhanced body proportions
+- Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); she must clearly look like an adult woman
+- Freckles, rosy, pink or flushed cheeks or cheekbones, visible blush, or a reddish nose
+- Glowing highlighter on the cheekbones, heavy contour or a made-up 'beauty filter' face
+- Perfectly smooth, uniform hair with no flyaways
+- Oversaturated colors or an HDR look
+- Warm, yellow or sepia color cast not present in the original
+- Shiny, glossy, oily or overly glowing skin
+- Smoothed, plastic, waxy or airbrushed skin
+- Doll-like, porcelain or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
+- Illustration, CGI or 3D look
+- Short skirts, mini dresses, long-sleeve dresses, shorts, crop tops, bare midriff, cleavage, high slits or see-through fabric (the outfit must cover her down to below the knee and the top must reach the waistband)
+- Heavy or cold-weather clothes: hoodies, sweaters, coats, jackets, long sleeves
+- Deformed hands or extra fingers
+- Sharp, crisp, HD or high-resolution look, or a clean professional camera image
+- Studio lighting, rim lights or perfectly even professional lighting
+- Perfectly centered, symmetrical or staged composition; stiff, model-like poses
+- Empty, spotless or showroom-like backgrounds
+- Brand-new, perfectly smooth fabric with no wrinkles
+- Readable brand logos, recognizable cartoon characters, text or watermarks
+
+FORMAT
+Vertical, same orientation as the reference. Generate the image directly without asking me any questions.
