@@ -1,0 +1,151 @@
+﻿# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+# [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
+# Versión "modelo": misma mujer de la referencia (misma cara y mismo cuerpo); solo cambian ropa, detalles, pose y momento.
+
+[INICIO]
+Generate a new photorealistic image based on the photo I've attached.
+
+GOAL
+A new candid, everyday photo of the same woman as in my reference (the same person, with the same face, body and hair), in a new moment, as if a friend snapped it with a modern phone in the same kind of place as the reference. She looks attractive and confident in a short, fitted, flirty outfit, in the style of a popular social media post, but always tasteful and safe for any social network. It must look like a real, unedited smartphone photo that was shared on social media, not a fashion shoot and not AI.
+
+MODEL
+- Exactly the same woman as the reference, so anyone who knows her would recognize her instantly: the same face shape, jawline, chin and cheekbones, the same eyes (shape, size, spacing and color), the same nose, the same lips, the same brows, and the same moles, beauty marks or freckles in the same places (do not add any she does not have)
+- Clearly an adult woman with mature adult facial features (defined cheekbones and jawline, adult facial proportions), the same age as in the reference, never younger
+- The same body as the reference, with the same proportions: same height and build, same shoulders, bust and waist, and the same wide, rounded hips, large, full, round glutes and full thighs (natural or gym-built, exactly as hers); her curves stay clearly visible; do not slim her down, flatten her glutes or narrow her hips, and do not exaggerate or enlarge her curves either
+- The same skin tone, eye color, hair color, hair length and hair texture (straight stays straight, wavy stays wavy, curly stays curly); the same hairstyle unless the pose below says otherwise (a bun, hair tucked behind one ear)
+- The same tattoos and piercings she has in the reference, in the same places, when that part of her body is visible; no new tattoos or piercings
+- Real-person details: slight natural facial asymmetry (the same as hers), visible skin pores, subtle natural unevenness in skin tone (without redness), faint under-eye shadows, flyaway hairs and a few loose strands
+- Makeup in the same style and intensity as the reference (if she wears full makeup with defined brows, lashes, eyeliner and soft contour, so she does here; if it is natural, keep it natural), matte skin, cheeks and cheekbones the same even tone as the rest of her face (no blush, no pink or rosy color, no highlighter glow)
+- Her face is always clearly visible and recognizable: not covered by the phone, her hands, her hair or sunglasses
+
+CHANGE
+
+[Ropa ajustada | - Outfit | modelo]
+a fitted high-waisted {light-wash|medium-wash|black} denim mini skirt ending at mid-thigh with a slightly frayed raw hem, and a short fitted {white|black|baby pink|mustard yellow} cropped baby tee that shows a small strip of her waist, realistic denim and cotton texture, natural creases at the hips, {slight pilling on the fabric|visible seam lines and stitching|slightly faded from many washes, not brand-new|a loose thread at the hem}
+a short fitted {mustard yellow|white|black|baby pink} cropped cotton t-shirt with a big faded cartoon-style print on the front (a generic made-up character, slightly cracked and distorted where the fabric stretches), with fitted high-waisted opaque {white|black|heather-gray} cotton bike shorts ending at mid-thigh, realistic cotton texture, natural stretch creases
+a fitted {beige|black|mocha|white|sage green} ribbed bodycon mini dress with thin straps and a straight neckline, hem at mid-thigh, the fabric gathered softly at the bust and slightly wrinkled across the waist and hips, realistic rib texture, {slight pilling on the fabric|visible seam lines and stitching|slightly faded from many washes, not brand-new}
+a fitted {mocha|black|olive|dusty blue} one-shoulder ribbed seamless jumpsuit, tight from shoulder to ankles and hugging her curves, fine visible ribbing with a soft sheen, natural stretch creases at the hips and knees, {slight pilling on the fabric|fabric slightly bunched at the waist and joints}
+a fitted {white|cream} cropped high-neck tank top with an all-over black-and-white newspaper-style print, with high-waisted {black|charcoal|mocha} ribbed flared leggings that hug her hips and thighs, realistic rib texture, the print slightly distorted where the fabric stretches, {visible seam lines and stitching|fabric slightly bunched at the waist}
+high-waisted {light-wash|medium-wash|black} denim shorts ending at mid-thigh with a frayed hem and faded pockets, and a fitted {white|black|red|olive} ribbed cropped tank top with a high neckline, realistic denim and rib texture, {slight pilling on the fabric|visible seam lines and stitching|slightly faded from many washes, not brand-new}
+a fitted {black|white|burgundy} halter crop top with a tasteful V neckline and a hook-and-eye front, with fitted high-waisted {cream|white|champagne} opaque satin pants, realistic fabric texture with a soft sheen, natural creases, {visible seam lines and stitching|fabric slightly bunched at the waist}
+a fitted {white|black|pink|lilac} square-neck cropped top with short puff sleeves and a modest neckline, with a fitted {black|light-wash denim|beige} mini skirt ending at mid-thigh, realistic fabric texture, natural creases, {slight pilling on the fabric|visible seam lines and stitching|a loose thread at the hem}
+a fitted {black|white|red|baby blue} off-the-shoulder ribbed top that ends at the waistband of high-waisted {light-wash|black} skinny jeans faded at the thighs and knees, realistic rib and denim texture, natural creases at the hips and knees
+a fitted {beige|black|sage green|baby pink} ribbed knit two-piece set, a short-sleeve crop top and a matching fitted mini skirt ending at mid-thigh, the ribs slightly uneven over her curves, realistic knit texture, {slight pilling on the fabric|fabric slightly bunched at the waist and joints}
+a fitted {red|black|white|emerald green} short-sleeve bodycon mini dress with a round neckline, hem at mid-thigh, stretch jersey with small creases at the waist and hips, realistic fabric texture, {slight pilling on the fabric|slightly faded from many washes, not brand-new|a loose thread at the hem}
+high-waisted {black|gray|navy|burgundy} seamless leggings and a matching fitted cropped athletic tank top with a high neckline, gym look, realistic stretch fabric texture, natural stretch creases, {slight pilling on the fabric|fabric slightly bunched at the waist and joints}
+a fitted {light-wash|medium-wash} denim mini dress with short sleeves and a button front with all buttons closed, hem at mid-thigh, faded seams, realistic denim texture, natural creases at the waist and hips
+a fitted {black|white|heather-gray} short-sleeve bodysuit with a round neckline tucked into high-waisted {light-wash|medium-wash} denim shorts ending at mid-thigh with a frayed hem, realistic denim and stretch texture, natural creases
+a fitted {black|lilac|baby blue} cropped zip-up athletic top zipped up to the collarbone, with matching fitted high-waisted bike shorts ending at mid-thigh, realistic stretch fabric texture, natural stretch creases, {slight pilling on the fabric|visible seam lines and stitching}
+a fitted {small-floral|gingham|polka-dot} cotton mini sundress with thin straps, a modest sweetheart neckline and a fitted bodice, hem at mid-thigh, realistic cotton texture, {slightly wrinkled from wear|visible seam lines and stitching|slightly faded from many washes, not brand-new}
+a fitted {black|beige|white} corset-style top with wide straps and a straight neckline, ending at the waist, with high-waisted {light-wash|dark-wash|black} skinny jeans with faded whiskering at the thighs, realistic fabric and denim texture, natural creases
+a fitted {black|red|white|cobalt blue} one-shoulder stretch mini dress, hem at mid-thigh, smooth jersey hugging her curves, realistic fabric texture, natural stretch creases at the waist, {slight pilling on the fabric|a loose thread at the hem}
+a fitted {khaki|black|olive} cargo mini skirt ending at mid-thigh with slightly bulging side pockets, and a short fitted {white|black|gray} cropped tee that shows a small strip of her waist, realistic twill and cotton texture, natural creases
+a fitted {white|black|pink} cropped henley tee with the buttons closed, with high-waisted {light-wash|black} mom jeans fitted at the hips, faded denim with soft creases, realistic cotton and denim texture, {slight pilling on the fabric|a slightly stretched-out neckline}
+a fitted {black|champagne|wine red} opaque satin slip mini dress with thin straps and a straight neckline, hem at mid-thigh, soft realistic sheen with small creases at the waist and hips, {visible seam lines and stitching|slightly wrinkled from wear}
+a fitted {white|black|yellow} ribbed tank top with a high neckline, tucked into a fitted {light-wash|black} denim mini skirt ending at mid-thigh with a frayed hem, realistic rib and denim texture, natural creases at the hips
+
+[Detalles | - Details | modelo]
+{a thin gold necklace|a thin silver chain with a small pendant|small hoop earrings|small stud earrings}, {a thin bracelet|a black hair tie on her wrist|a couple of thin rings}, {a few flyaway hairs around her hairline|a few loose strands near her face that do not cover it|a couple of loose strands falling over her shoulder}
+{sunglasses pushed up on top of her head|small hoop earrings|a thin gold necklace}, {a hair tie on her wrist|a thin bracelet|a smartwatch with a worn strap}, {flyaway hairs around her hairline|a few loose strands falling over her shoulder|slightly uneven hair parting}
+{a couple of thin rings|a thin silver chain with a small pendant|small stud earrings}, {long almond nails with slightly chipped red polish|long almond nails with a worn white chrome finish|short natural nails|simple nude nails with slight wear at the tips}, {a hair tie on her wrist|a thin bracelet|a thin anklet}
+{a thin bracelet|a hair tie on her wrist|a thin ring}, {a thin gold necklace|small hoop earrings|chunky gold earrings}, {a slightly uneven hair parting|a few loose strands falling over her shoulder|hair tucked behind one ear}
+{stacked gold bangles on one wrist|a few colorful friendship bracelets and a thin gold bracelet|a thin gold bracelet and a ring}, {long almond-shaped nails painted red|long nude nails|short red nails with a chipped corner}, {a thin anklet|small stud earrings|a hair clip holding back a few strands}
+{a small worn shoulder bag with a thin strap|sunglasses hooked on the neckline of her top|a delicate head chain}, {a thin gold necklace|a couple of thin rings|a hair tie on her wrist}, and if her feet are visible {worn white sneakers with creases and a bit of dirt|flat leather sandals|plain flip-flops}
+
+[Pose | - Pose | modelo]
+caught mid-turn, glancing back at the camera over her shoulder, hair swinging, one hand resting lightly on the side of her skirt or hip, small closed-mouth smile
+standing with weight on one leg and the other knee bent slightly inward, both hands loosely holding the strap of a small shoulder bag in front of her, shy half-smile
+leaning forward a little with one hand on her knee, looking at the camera with a soft, playful smile, a natural candid moment
+gathering her hair up into a messy bun with both hands, elbows up, a hair tie between her teeth, face turned three-quarters toward the camera, eyes glancing sideways
+both hands behind her neck lifting her hair, elbows out, standing straight with weight slightly on one leg, neutral calm expression with lips relaxed, looking straight into the lens
+back three-quarters to the camera, looking back over her shoulder with her face clearly visible, one hand tugging at the waistband of her skirt or leggings, soft closed-lip smile
+sitting on the edge of a step or ledge with knees together and ankles crossed to one side, hands resting on her lap, looking at the camera with a calm smile
+leaning back against a wall with one foot flat against it, hands loosely clasped at her waistband with her fingers fidgeting, lips closed, calm direct gaze without smiling
+fanning herself with one hand because of the heat, squinting a little, natural amused expression
+walking away from the camera and looking back over her shoulder mid-step, face clearly visible, candid smile, hair moving
+looking over her shoulder with a confident, slightly flirty look, one hand on her hip and her hips turned away from the camera
+three-quarter view, smoothing the front of her top over the waistband with both hands, looking down at it with her face still visible, like a frame from a try-on video
+holding a cold bottle of water against the side of her neck, eyes half closed, relaxed expression
+sitting sideways on a chair with one arm over the backrest, legs crossed with knees together, chin resting on her forearm, soft smile
+standing with her thumbs hooked in the front pockets or waistband, shoulders slightly shrugged, playful smile
+front-camera selfie with her arm stretched toward the camera and visible in the foreground, slightly distorted by the wide lens, other arm resting on the backrest of a sofa, small closed-lip smile
+mirror selfie, holding a phone in a worn case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone, looking at the phone screen instead of the mirror, serious neutral expression, lips slightly parted
+mirror selfie, body turned three-quarters, one hand on her hip, phone held at chest height and off to the side so her whole face is visible, small asymmetric smile
+body turned in profile, torso twisted slightly back toward the camera to show the curve of her hips, face turned three-quarters toward the camera, looking down at the phone in her hands with a soft neutral expression
+one hand shading her eyes from the sun, looking into the distance with a slight smile, her face still clearly visible
+pushing her hair back off her face with one hand, soft closed-mouth smile, head tilted slightly
+standing with one hip popped, holding an iced drink in one hand, the other hand in her hair, looking straight at the camera
+one hand holding the strap of a shoulder bag, the other hand raised mid-gesture near her shoulder, warm natural smile, caught mid-moment
+leaning in a doorway, one shoulder on the frame, arms loosely crossed, relaxed half-smile toward the camera
+standing straight facing the camera, arms relaxed at her sides, weight on one leg, small closed-mouth smile, full body visible from head to feet, photo taken from a few steps away
+standing relaxed in three-quarter view, one hand on her hip and the other arm hanging naturally, soft smile toward the camera, full body in frame with space around her, photo taken from about three meters away
+standing in the middle of the place with her hands loosely clasped in front of her, calm smile at the camera, full body with the floor visible, the place visible around her, photo taken from a distance but close enough that her face is clearly recognizable
+standing with her arms loosely crossed and her weight on one hip, relaxed confident look at the camera, framed from the knees up
+standing next to a piece of furniture or a railing with one hand resting on it and the other at her side, natural smile, full body, photo taken from a few steps away
+standing still with both hands resting on the back of her hips, looking at the camera with a small smile, framed from mid-thigh up
+standing with one foot slightly in front of the other, hands lightly touching the hem of her outfit, gentle smile, full body with a lot of the place visible around her, photo taken from a few meters away, her face still clearly recognizable
+standing with her shoulders relaxed and her hands at her sides, looking slightly away from the camera with a calm expression, face in three-quarter view, full body, photo taken from a few meters away
+
+[FINAL]
+KEEP EXACTLY THE SAME
+- Her identity: the same face (every feature), the same body and proportions, the same skin tone and eye color, the same hair color, length and texture, and the same tattoos, moles and beauty marks as in the reference
+- The same kind of place as the reference (if a setting is described above, use that setting instead): indoors stays indoors and outdoors stays outdoors, with the same architecture and decor style, the same wall, floor and furniture colors and the same level of luxury or simplicity. Not an exact copy: change only small details such as the camera angle, a different corner of the same place or some objects moved or different
+- Lighting: direction, softness, intensity, color temperature
+- Lens look, depth of field and framing style
+- Color grading, contrast, white balance, grain
+- Image quality: resolution, sharpness, level of detail, noise and compression
+- Natural, matte skin with small imperfections, like an unedited phone photo (no smoothing or beauty filter)
+
+REALISM (like a real, unedited photo taken with a phone)
+- Casual amateur framing: slightly off-center or slightly tilted, as if taken quickly by a friend, with part of her body or feet sometimes cut off by the frame (never her face)
+- Phone camera look: wide-angle perspective with slight distortion near the edges; background blur, how bright areas such as windows or sky render (blown out or with visible color) and noise in the shadows exactly as in the reference
+- In front-camera selfies: slight wide-angle distortion, the arm closest to the camera looks bigger, but her facial features stay true to the reference. In mirror selfies: a real phone in a worn, slightly yellowed case held at chest height without covering her face, fingerprints or smudges on the mirror, the mirror frame or a door frame cutting into the edge of the picture
+- The same kind of light as the reference, coming from the place itself (for example recessed ceiling lights and window light in a modern apartment, or sun and tree shadows in a garden), not studio lighting
+- Light and shadows fall consistently on her face, body, clothes and background, with real contact shadows where her feet, hands and body touch surfaces
+- A real, lived-in version of the reference's place: a few small everyday objects that would actually be there (in a modern apartment: a phone charger, a throw blanket, a glass or keys on a counter; in a garden or patio: a hose, a plastic chair, a flower pot), never turning a clean modern space into an old, weathered or run-down one
+- Her own short, fresh warm-weather clothes (cotton, rib knit, jersey, light denim), fitted to her real body and hugging her real curves and already worn many times: small wrinkles at the waist, hips and knees, visible seams, a little pilling, never brand-new; prints look faded, cracked and distorted where the fabric stretches
+- Personal details that make her a real person: nails with a slightly worn design, simple jewelry, a hair tie on her wrist, and only the tattoos she already has in the reference
+- Hands doing something small and real (holding the phone, pulling at a waistband, lifting her hair, gripping a bag strap, fidgeting with her fingers), with realistic nails and knuckles, never stiff model hands
+- Natural, slightly asymmetric expression: often neutral or a small closed-mouth smile, not a posed model smile; the expression changes, her features do not
+- Correct anatomy: two hands with five fingers each and natural joints and nails, both eyes looking in the same direction, realistic neck and shoulders
+
+IMAGE QUALITY (identical to the reference)
+- Exactly the same image quality as the reference photo: same resolution, sharpness and level of detail, same noise or grain, same compression; it must look like it was taken with the same phone, at the same time of day and in the same light
+- If the reference is a sharp, clean, modern smartphone photo, the new image is just as sharp and clean: individual hair strands, skin pores and fabric texture clearly defined, not smeared
+- Same contrast, brightness, color saturation and vividness as the reference: if the reference has a deep blue sky, rich greens and warm golden sunlight, so does the new image
+- Do not add blur, haze, JPEG artifacts or a washed-out look that are not in the reference
+- A digital photo from a modern smartphone (like a recent iPhone), never a film camera: no film grain, no analog or 35mm look, no faded or vintage colors
+
+AVOID
+- A different face from the reference: any change to her face shape, jawline, chin, cheekbones, eyes, nose, lips or brows; she must be clearly and instantly recognizable as the same woman
+- A face hidden or hard to recognize: covered by the phone, hands, hair or sunglasses, turned completely away, or too small in the frame
+- A different age: younger, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin), or older than in the reference
+- A different body: slimmer, narrower or straighter hips, smaller or flatter glutes, thinner thighs, a different bust or waist, or a boyish figure; also bigger, exaggerated, cartoonish or clearly surgically enhanced curves that she does not have
+- A bodybuilder or overly muscular body (visible six-pack abs, bulky or veiny arms and shoulders, very muscular, striated legs)
+- A different skin tone, eye color, hair color, hair length, hair texture or hairstyle than the reference (for example straight hair turned curly or messy)
+- New tattoos, piercings, moles, beauty marks or freckles that are not in the reference, or removing the ones she has
+- Rosy, pink or flushed cheeks or cheekbones, visible blush, or a reddish nose
+- Glowing highlighter on the cheekbones or a 'beauty filter' face
+- Perfectly smooth, uniform hair with no flyaways
+- Colors more saturated or more muted than the reference, or an HDR look not present in the reference
+- Warm, yellow or sepia color cast not present in the original
+- Shiny, glossy, oily or overly glowing skin
+- Smoothed, plastic, waxy or airbrushed skin
+- Doll-like, porcelain or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
+- Illustration, CGI or 3D look, AI-generated look
+- Anything that could be censored: nudity, see-through or sheer fabric, visible underwear, lingerie or swimwear as an outfit, deep or exaggerated cleavage, a skirt or shorts shorter than mid-thigh, wardrobe malfunctions, camera angles looking up a skirt or focused on the crotch, explicit or sexual poses or expressions
+- Heavy or cold-weather clothes: hoodies, sweaters, coats, jackets, long sleeves
+- Deformed hands or extra fingers, extra limbs, warped face or background
+- Laughing out loud: open-mouth laughter, mid-laugh expressions, head thrown back laughing
+- Talking on the phone or holding a phone to her ear
+- Image quality different from the reference: softer, blurrier, hazier, grainier, more compressed, flatter, grayer or more washed-out than the reference, or a professional camera look the reference does not have
+- Studio lighting, rim lights or perfectly even professional lighting
+- Perfectly centered, symmetrical or staged composition; stiff, model-like poses or vulgar, exaggerated poses
+- A different kind of place than the reference (indoors turned into outdoors or the other way around, or a clean modern space turned into an old, weathered or run-down one)
+- Film photography look: 35mm or analog film grain, Kodak Portra-style warm faded colors, a vintage or nostalgic look
+- Backgrounds that look fake or rendered
+- Brand-new, perfectly smooth fabric with no wrinkles
+- Readable brand logos, recognizable cartoon characters, text or watermarks
+
+FORMAT
+Vertical, same orientation as the reference. Generate the image directly without asking me any questions.
