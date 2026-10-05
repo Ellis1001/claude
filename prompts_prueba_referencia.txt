@@ -1,0 +1,88 @@
+﻿# PROMPTS DE PRUEBA DESDE UNA IMAGEN DE REFERENCIA (misma escena en los dos para comparar)
+# Adjunta UNA foto clara de la modelo (cara visible, luz natural) y pega el prompt.
+# ChatGPT: lenguaje natural con PRESERVE / CHANGE / AVOID (patrón "change only..." de la guía de OpenAI).
+# Gemini: JSON con "preserve_original" y bloque "negative" (patrón de ZeroLu/awesome-nanobanana-pro).
+
+==================== CHATGPT (GPT Image) ====================
+
+Use the woman in the attached photo as the only reference for her identity.
+Create a photorealistic candid photo of this same woman, as if a friend took it with an iPhone on an ordinary afternoon and she posted it on Instagram without editing.
+
+PRESERVE EXACTLY AS IN THE REFERENCE
+- Her face: face shape, jawline, chin, cheekbones, eyes (shape, spacing and color), nose, lips, brows, and any moles or beauty marks in the same places
+- Her age, skin tone, and hair color, length and texture
+- Her body shape and proportions: bust, waist, hips, glutes and thighs, not slimmer and not curvier
+- Any tattoos she has; do not add new ones
+She must be instantly recognizable as the same person.
+
+CHANGE ONLY THE SCENE, OUTFIT, POSE AND LIGHT
+- Scene: a real neighborhood café terrace on a city sidewalk, small metal tables, a half-finished iced latte and a crumpled napkin on her table, people and parked scooters slightly out of focus behind her
+- Light: late-afternoon sun from the side with long shadows
+- Outfit: a fitted black ribbed bodycon mini dress with wide straps and a straight neckline, hem at mid-thigh, opaque fabric with small creases at the waist and hips; small gold hoop earrings and a hair tie on her wrist
+- Pose: sitting sideways on a metal chair, legs crossed with knees together, one elbow on the table and her chin resting lightly on her hand, body turned three-quarters toward the camera
+- Expression: relaxed and confident, soft closed-mouth smile, looking at the camera
+
+CAMERA AND REALISM
+- Main camera of a recent iPhone, about two meters away at chest height, vertical 3:4
+- Slightly off-center, slightly tilted framing, as if taken quickly
+- Auto exposure: the bright street a little blown out, a bit of noise in the shadows, only the natural background blur of a phone
+- Real skin with visible pores, fine peach fuzz and slight unevenness, matte, no retouching; flyaway hairs and a few loose strands; rib texture, light pilling and creases on the dress
+- Natural hands with five fingers and realistic nails
+
+AVOID
+A different face or body, beauty filter, airbrushed or plastic skin, studio lighting, cinematic color grading, film grain, an editorial or 8K look, cleavage, see-through fabric, text, logos or watermarks.
+
+
+==================== GEMINI (Nano Banana) ====================
+
+Generate a photorealistic image from this JSON, using the woman in the attached photo as the identity reference:
+
+{
+  "intent": "Candid, unedited iPhone photo of the same woman as in the reference, posted on Instagram, tasteful and safe for any social network",
+  "subject": {
+    "face": {
+      "preserve_original": true,
+      "reference_match": true,
+      "description": "Exactly the same face as the reference: face shape, jawline, chin, cheekbones, eyes (shape, spacing and color), nose, lips, brows, moles and beauty marks in the same places. Same age. Instantly recognizable as the same person."
+    },
+    "body": {
+      "preserve_original": true,
+      "description": "Same body shape and proportions as the reference: bust, waist, hips, glutes and thighs. Not slimmer, not curvier. Same tattoos, no new ones."
+    },
+    "hair": "same color, length and texture as the reference, a few flyaways and loose strands",
+    "skin": "same skin tone, matte, visible pores, fine peach fuzz, slight natural unevenness, no retouching",
+    "makeup": "same style and intensity as the reference, no blush, no highlighter",
+    "expression": "relaxed and confident, soft closed-mouth smile, looking at the camera",
+    "pose": "sitting sideways on a metal café chair, legs crossed with knees together, one elbow on the table and her chin resting lightly on her hand, body turned three-quarters toward the camera",
+    "clothing": {
+      "type": "fitted black ribbed bodycon mini dress",
+      "details": "wide straps, straight neckline, hem at mid-thigh, opaque fabric, small creases at the waist and hips, slight pilling"
+    },
+    "accessories": ["small gold hoop earrings", "a black hair tie on her wrist"]
+  },
+  "environment": {
+    "setting": "a real neighborhood café terrace on a city sidewalk",
+    "elements": [
+      "small metal tables and chairs",
+      "a half-finished iced latte with melting ice on her table",
+      "a crumpled paper napkin",
+      "people and parked scooters slightly out of focus in the background",
+      "cracked pavement"
+    ],
+    "lighting": "late-afternoon sun from the side with long shadows"
+  },
+  "photography": {
+    "camera_style": "casual iPhone photo taken by a friend, NOT professional",
+    "camera": "main camera of a recent iPhone, about two meters away, at chest height",
+    "framing": "slightly off-center and slightly tilted, as if taken quickly",
+    "exposure": "auto exposure, the bright street a little blown out, a bit of noise in the shadows",
+    "depth_of_field": "only the natural background blur of a phone",
+    "aspect_ratio": "3:4 vertical",
+    "quality": "sharp, realistic social media quality, not over-processed"
+  },
+  "negative": {
+    "identity": "different face, different body, younger or older look, new tattoos or moles",
+    "style": "beauty filter, airbrushed or plastic skin, studio lighting, cinematic color grading, film grain, editorial or 8K look, strong bokeh",
+    "content": "cleavage, see-through fabric, text, logos, watermarks, extra fingers"
+  }
+}
