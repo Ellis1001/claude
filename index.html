@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cargando…</title>
+<meta name="robots" content="noindex,nofollow">
+<style>
+  :root{
+    --bg:#0b0b0f; --card:#15151d; --line:#262633; --fg:#f4f4f7;
+    --muted:#9a9aae; --accent:#ff2d6b; --accent2:#7a2dff; --radius:16px;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:radial-gradient(1200px 600px at 50% -10%, #241228 0%, var(--bg) 55%);
+    color:var(--fg); font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    display:flex; align-items:center; justify-content:center; padding:24px;
+  }
+  .wrap{width:100%; max-width:720px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow:hidden; box-shadow:0 20px 60px rgba(0,0,0,.45);
+  }
+  .media{position:relative; aspect-ratio:16/9; background:#000}
+  .media video{width:100%; height:100%; object-fit:cover; display:block}
+  .pad{padding:20px}
+  h1{margin:0 0 6px; font-size:1.25rem}
+  p.sub{margin:0 0 16px; color:var(--muted); font-size:.95rem}
+  .gallery{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:16px 0}
+  .gallery img{width:100%; aspect-ratio:1; object-fit:cover; border-radius:10px; background:#222}
+  .row{display:flex; gap:12px; align-items:center; flex-wrap:wrap}
+  .btn{
+    appearance:none; border:0; cursor:pointer; font-weight:700; font-size:1rem;
+    padding:14px 22px; border-radius:12px; color:#fff;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+  }
+  .btn.secondary{background:#222; color:var(--fg); border:1px solid var(--line)}
+  .count{margin-left:auto; color:var(--muted); font-size:.9rem}
+  .count b{color:var(--fg)}
+  /* Age gate */
+  #gate{
+    position:fixed; inset:0; background:rgba(5,5,8,.92); backdrop-filter:blur(6px);
+    display:none; align-items:center; justify-content:center; padding:24px; z-index:10;
+  }
+  #gate.on{display:flex}
+  .gatecard{max-width:420px; text-align:center; background:var(--card);
+    border:1px solid var(--line); border-radius:var(--radius); padding:28px}
+  .gatecard h2{margin:0 0 8px}
+  .gatecard p{color:var(--muted); margin:0 0 20px; font-size:.9rem}
+  .gatecard .row{justify-content:center}
+  a.exit{color:var(--muted)}
+  @media (max-width:520px){ .gallery{grid-template-columns:repeat(3,1fr)} }
+</style>
+</head>
+<body>
+
+<!-- =========================================================
+     CONFIGURACIÓN  — edita solo estas líneas
+     ========================================================= -->
+<script>
+  const CONFIG = {
+    // A dónde va TODO el tráfico (un único destino para todos):
+    destino: "https://tu-sitio.com/",
+
+    // Segundos antes de redirigir automáticamente:
+    segundos: 3,
+
+    // Muro de edad +18 (true = mostrarlo). A dónde mandar si dicen "No":
+    adulto: true,
+    salida: "https://www.google.com/",
+
+    // Vídeo de portada (archivo propio o enlace directo .mp4):
+    video: "video.mp4",
+    poster: "poster.jpg",
+
+    // Miniaturas de la galería (ponlas todas al mismo destino):
+    galeria: ["g1.jpg","g2.jpg","g3.jpg","g4.jpg"]
+  };
+</script>
+<!-- ========================================================= -->
+
+<div class="wrap">
+  <div class="card">
+    <div class="media">
+      <video id="vid" autoplay muted loop playsinline></video>
+    </div>
+    <div class="pad">
+      <h1>Tu contenido está listo</h1>
+      <p class="sub">Serás redirigido en unos segundos. Pulsa continuar para ir ahora.</p>
+
+      <div class="gallery" id="gallery"></div>
+
+      <div class="row">
+        <button class="btn" id="go">Continuar</button>
+        <button class="btn secondary" id="skip">Saltar</button>
+        <span class="count">Redirigiendo en <b id="n">3</b> s…</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Muro de edad -->
+<div id="gate">
+  <div class="gatecard">
+    <h2>Contenido para adultos</h2>
+    <p>Este sitio contiene material para mayores de 18 años. Al entrar confirmas que eres mayor de edad en tu país.</p>
+    <div class="row">
+      <button class="btn" id="yes">Tengo 18+ y quiero entrar</button>
+      <a class="exit" id="no" href="#">Salir</a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const $ = s => document.querySelector(s);
+
+  // Mismo destino para todas las visitas — sin tratos distintos por dispositivo.
+  function redirect(){ window.location.replace(CONFIG.destino); }
+
+  // Vídeo
+  const v = $("#vid");
+  if (CONFIG.poster) v.poster = CONFIG.poster;
+  if (CONFIG.video){ v.src = CONFIG.video; v.play().catch(()=>{}); }
+
+  // Galería (todas llevan al mismo sitio)
+  const g = $("#gallery");
+  (CONFIG.galeria||[]).forEach(src=>{
+    const a = document.createElement("a");
+    a.href = CONFIG.destino;
+    const img = document.createElement("img");
+    img.src = src; img.loading = "lazy"; img.alt = "";
+    a.appendChild(img); g.appendChild(a);
+  });
+
+  // Botones
+  $("#go").addEventListener("click", redirect);
+  $("#skip").addEventListener("click", redirect);
+
+  // Cuenta atrás
+  let n = Math.max(0, CONFIG.segundos|0);
+  const label = $("#n"); label.textContent = n;
+  let timer;
+  function startCountdown(){
+    timer = setInterval(()=>{
+      n--; label.textContent = n;
+      if (n <= 0){ clearInterval(timer); redirect(); }
+    }, 1000);
+    if (n === 0) redirect();
+  }
+
+  // Muro de edad
+  if (CONFIG.adulto){
+    const gate = $("#gate"); gate.classList.add("on");
+    $("#yes").addEventListener("click", ()=>{ gate.classList.remove("on"); startCountdown(); });
+    $("#no").addEventListener("click", e=>{ e.preventDefault(); window.location.replace(CONFIG.salida); });
+  } else {
+    startCountdown();
+  }
+})();
+</script>
+</body>
+</html>
