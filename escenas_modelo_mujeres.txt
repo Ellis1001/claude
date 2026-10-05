@@ -2,93 +2,130 @@
 # Cada escena dice SOLO lo que cambia: lugar, ropa, pose, expresion y luz.
 # La cara y el cuerpo los mantiene la instruccion de identidad (panel › Modelos).
 # Separa las escenas con una linea que tenga solo ---. {a|b|c} elige una opcion al azar.
+# Ropa siempre ajustada y opaca, de calor; sensual pero apta para redes: sin escote marcado, sin transparencias, sin ropa de baño ni ropa interior.
 
 Setting: a real, lived-in {small apartment kitchen with white tiles, a few dishes drying in the rack and fridge magnets|kitchen with slightly worn wooden cabinets, a fruit bowl and a dish towel hanging from the oven door}, a coffee maker and a few crumbs on the counter, morning daylight from the window.
-Outfit: {an oversized cream knit sweater with one sleeve pushed up and light-wash jeans faded at the knees|a fitted grey t-shirt slightly faded from washing and black leggings a little pilled at the knees}, in socks.
-Pose: leaning back against the counter, holding a coffee mug with both hands at chest height, ankles crossed.
+Outfit: {a fitted white ribbed tank top with a high neckline and fitted high-waisted grey cotton bike shorts ending at mid-thigh|a fitted grey t-shirt slightly faded from washing and black leggings a little pilled at the knees}, in socks.
+Pose: leaning back against the counter, holding a coffee mug with both hands at chest height, ankles crossed, hips slightly to one side.
 Expression: still a little sleepy, soft closed-mouth smile, looking at the camera.
-Unedited smartphone photo taken by someone in the kitchen, auto exposure, the window slightly blown out, natural colors.
+Unedited smartphone photo taken by someone in the kitchen, auto exposure, the window slightly blown out, natural colors. Tasteful and safe for any social network.
 ---
 Setting: a real city sidewalk with {a small café with metal chairs outside and a few parked bicycles|old brick buildings, a lamp post and a shop shutter with faded graffiti}, cracked pavement and a few people passing in the background, late afternoon sun with long shadows.
-Outfit: {a beige trench coat worn open over a white t-shirt and straight jeans|a slightly faded denim jacket, a black t-shirt and a midi skirt}, white sneakers with creases and a bit of dirt, a small worn shoulder bag.
+Outfit: {a fitted high-waisted light-wash denim mini skirt ending at mid-thigh and a short fitted white baby tee that shows a small strip of her waist|a fitted black short-sleeve bodycon mini dress with a round neckline, hem at mid-thigh}, white sneakers with creases and a bit of dirt, a small worn shoulder bag.
 Pose: walking toward the camera mid-step, one hand tucking her hair behind her ear, the other holding her bag strap.
 Expression: relaxed and confident, slight smile, glancing at the camera.
-Candid photo taken quickly by a friend with a phone, slightly tilted framing, background as sharp as a phone renders it, a little movement in her hair.
----
-Setting: a real, bright {living room with a grey sofa with slightly flattened cushions, a crumpled throw blanket and a couple of plants|bedroom with rumpled white linen, a nightstand with a phone charger and a glass of water, and a large window}.
-Outfit: {a soft pastel hoodie a little faded from washing and matching joggers|a loose button-up shirt with the sleeves rolled up and cotton shorts}, bare feet.
-Pose: sitting cross-legged on the sofa or the bed of the room with an open paperback on her lap, one finger keeping the page.
-Expression: calm, just looking up from the book toward the camera.
-Soft daylight from the window, unedited phone photo with a little noise in the shadows.
+Candid photo taken quickly by a friend with a phone, slightly tilted framing, background as sharp as a phone renders it, a little movement in her hair. Tasteful and safe for any social network.
 ---
 Setting: a real {small supermarket aisle with crowded shelves, price labels and a scuffed floor under flat fluorescent lights|local fruit market with wooden stalls, plastic crates and handwritten price signs}, other shoppers in the background.
-Outfit: {a black puffer vest over a long-sleeve top and jeans|a casual striped shirt and wide-leg trousers}, worn sneakers.
+Outfit: {a fitted black ribbed cropped tank top with a high neckline and high-waisted light-wash skinny jeans faded at the thighs|a fitted olive cargo mini skirt ending at mid-thigh and a short fitted white cropped tee}, worn sneakers.
 Pose: holding {a plastic shopping basket with some fruit and a carton of milk|a reusable shopping bag with a baguette sticking out}, turned three-quarters toward the camera.
 Expression: friendly, natural smile, as if a friend just called her name.
-Everyday candid phone photo, the same light the place really has (store fluorescents or open daylight).
+Everyday candid phone photo, the same light the place really has (store fluorescents or open daylight). Tasteful and safe for any social network.
 ---
 Setting: a real {public park with tall trees, a dirt path and a few people far in the distance|lakeside path with a wooden railing, a litter bin and a few ducks on the water} on a sunny day.
-Outfit: {a light cotton sundress with a thin cardigan|athletic leggings and a zip-up sports jacket}, comfortable shoes a little dusty from the path.
-Pose: {sitting on a weathered wooden bench with chipped paint, legs crossed|standing next to a tree with one hand resting on the trunk}.
+Outfit: {a fitted small-floral cotton mini sundress with thin straps, a modest sweetheart neckline and a fitted bodice, hem at mid-thigh|fitted high-waisted black seamless leggings and a matching fitted cropped athletic tank top with a high neckline}, comfortable shoes a little dusty from the path.
+Pose: {sitting on a weathered wooden bench with chipped paint, legs crossed with knees together|standing next to a tree with one hand resting on the trunk, weight on one hip}.
 Expression: peaceful, eyes slightly squinting in the sun.
-Bright sun with hard shadows and dappled light through the leaves, unedited phone photo.
+Bright sun with hard shadows and dappled light through the leaves, unedited phone photo. Tasteful and safe for any social network.
 ---
 Setting: a real neighborhood {café with a small marble table, a few crumbs and a used sugar packet on it|bakery with pastries behind a slightly smudged glass display}, other customers in the background.
-Outfit: {a camel turtleneck sweater and gold hoop earrings|a white blouse and a black blazer}.
-Pose: seated at the table, chin resting on one hand, a half-finished latte in front of her.
+Outfit: {a fitted white square-neck cropped top with short puff sleeves and a fitted black mini skirt ending at mid-thigh|a fitted beige ribbed bodycon mini dress with thin straps and a straight neckline}, small gold hoop earrings.
+Pose: seated at the table, chin resting on one hand, legs crossed to the side, a half-finished iced latte in front of her.
 Expression: thoughtful, gentle closed-mouth smile.
-Window daylight mixed with warm indoor bulbs, phone photo taken from across the table.
+Window daylight mixed with warm indoor bulbs, phone photo taken from across the table. Tasteful and safe for any social network.
 ---
 Setting: a real office with {a laptop, a notebook, scattered pens, a mug and a slightly droopy monstera on the desk|large windows with a city view, a second monitor and tangled cables on the desk}.
-Outfit: {a navy blazer over a cream top and tailored trousers|a knit vest over a collared shirt}.
-Pose: sitting at the desk with one hand on the keyboard, turning her head to glance at the camera.
+Outfit: {a fitted black short-sleeve bodysuit with a round neckline tucked into a fitted high-waisted beige pencil skirt ending just above the knee|a fitted white sleeveless high-neck ribbed top tucked into fitted high-waisted black tailored trousers}.
+Pose: sitting sideways on the office chair, one arm on the desk, turning her head to glance at the camera.
 Expression: focused but friendly, small smile.
-Flat office lights mixed with daylight, a quick photo taken by a coworker with a phone.
----
-Setting: {a beach boardwalk at sunset with sand blown over the wooden planks|a rocky coastline with waves and some seaweed on the rocks}.
-Outfit: {a wrinkled linen shirt and linen trousers rolled up at the ankles|a light knit cardigan over a sundress}, barefoot.
-Pose: standing with the wind moving her hair over her shoulders (not over her face), holding her sandals in one hand.
-Expression: carefree, amused closed-mouth smile.
-Low sun from the side with the sky a little blown out, travel photo taken with a phone.
+Flat office lights mixed with daylight, a quick photo taken by a coworker with a phone. Tasteful and safe for any social network.
 ---
 Setting: a real {neighborhood gym with weight racks, rubber floor mats and a mirror with fingerprints|yoga studio with a wooden floor, rolled-up mats and blocks stacked in a corner}.
-Outfit: {a matching sports bra and leggings under an open zip jacket|a loose tank top and biker shorts}, slightly worn sneakers, hair in a messy ponytail with a few damp strands at her hairline.
-Pose: {sitting on a bench tying her sneaker|standing with a water bottle in one hand and a small towel over her shoulder after a workout}.
+Outfit: {fitted high-waisted grey seamless leggings and a matching fitted cropped athletic tank top with a high neckline|fitted high-waisted black bike shorts ending at mid-thigh and a matching fitted cropped zip-up athletic top zipped up to the collarbone}, slightly worn sneakers, hair in a messy ponytail with a few damp strands at her hairline.
+Pose: {sitting on a bench tying her sneaker|standing with a water bottle in one hand and a small towel over her shoulder after a workout, weight on one leg}.
 Expression: energetic, slight smile.
-Overhead indoor lights, unedited phone photo.
----
-Setting: {a real rainy street with puddles and reflections on the wet pavement|a bus stop at dusk with a scratched plastic shelter, a timetable and car headlights on the street}.
-Outfit: {a yellow raincoat|a long black coat} over jeans, ankle boots with water spots, holding {a clear umbrella with raindrops on it|a black umbrella}.
-Pose: standing and looking back over her shoulder at the camera, the umbrella not covering her face.
-Expression: calm, small closed-mouth smile.
-Grey overcast or dusk light with streetlights, some noise in the shadows, unedited phone photo with no cinematic color grading.
----
-Setting: a real {small apartment balcony with potted plants, a plastic chair and string lights|residential rooftop terrace with water tanks, a clothesline and neighboring buildings} in the evening.
-Outfit: {an oversized sweatshirt and soft shorts|a long knit dress with socks}.
-Pose: leaning her forearms on the railing with a mug of tea in her hands, body turned toward the camera.
-Expression: relaxed, looking into the distance, face in three-quarter view.
-The last daylight mixed with warm bulbs, phone photo with slight noise.
+Overhead indoor lights, unedited phone photo. Tasteful and safe for any social network.
 ---
 Setting: a real {bookstore aisle between tall, slightly messy shelves|public library with rows of shelves and long reading tables}.
-Outfit: {a plaid skirt, tights and a cream sweater|a denim shirt tucked into black trousers}.
+Outfit: {a fitted sage green ribbed knit two-piece set, a short-sleeve crop top and a matching fitted mini skirt ending at mid-thigh|a fitted white cropped henley tee with the buttons closed and high-waisted light-wash mom jeans fitted at the hips}.
 Pose: pulling a book from the shelf, turned slightly toward the camera.
 Expression: curious, small smile.
-Even indoor lighting, unedited phone photo.
+Even indoor lighting, unedited phone photo. Tasteful and safe for any social network.
 ---
 Setting: {the driver's seat of a parked everyday car with worn fabric seats and a dusty dashboard|a train seat by the window with the landscape passing outside}.
-Outfit: {a hoodie with sunglasses pushed up on her head|a simple black top and a thin silver necklace}.
+Outfit: {a fitted black ribbed tank top with a high neckline and sunglasses pushed up on her head|a fitted white off-the-shoulder ribbed top and a thin silver necklace}.
 Pose: front-camera selfie at arm's length, the other hand touching her hair without covering her face.
 Expression: playful smile.
-Daylight through the window, slight wide-angle distortion from the front camera, realistic smartphone selfie.
+Daylight through the window, slight wide-angle distortion from the front camera, realistic smartphone selfie. Tasteful and safe for any social network.
 ---
-Setting: a real {backyard garden with flower beds, uneven grass and a garden hose|countryside field with tall grass and a dirt track} in spring.
-Outfit: {a floral midi dress and a straw hat tilted back so her face is visible|a white cotton shirt and light jeans}.
-Pose: walking away and looking back over her shoulder at the camera mid-step.
-Expression: happy, natural smile.
-Soft sunlight, unedited phone photo.
+Setting: a real beach at golden hour, wet sand with footprints, small waves reaching the shore, a few people and beach umbrellas far in the background.
+Outfit: {a fitted white cotton mini sundress with wide straps and a modest square neckline, hem at mid-thigh|a fitted black ribbed knit mini dress with a high neckline, hem at mid-thigh|a fitted red one-shoulder stretch mini dress, hem at mid-thigh}, opaque fabric, barefoot.
+Pose: walking along the waterline, holding her sandals in one hand, looking back over her shoulder at the camera, the wind moving her hair over her shoulders (not over her face).
+Expression: confident and slightly flirty, soft closed-mouth smile.
+Low warm sun from the side, the sky a little blown out, travel photo taken with a phone. Tasteful and safe for any social network: no swimwear, no see-through fabric, no cleavage.
 ---
-Setting: a real {living room at night with only a floor lamp on|small living room at night lit by the TV and a little lamp}, a couple of mugs and the remote on the coffee table.
-Outfit: {comfortable matching pajamas a little faded from washing|a big knit cardigan over a tank top and sweatpants}, socks.
-Pose: sitting on the floor leaning against the sofa, a blanket over her legs and a bowl of popcorn on her lap.
-Expression: cozy, content smile.
-Warm lamp light, visible noise in the darker areas, phone photo taken at night without flash.
+Setting: a real beach in the afternoon, a slightly wrinkled striped beach towel on the sand, a straw bag, a water bottle and a pair of flip-flops beside her, the sea behind her.
+Outfit: {high-waisted light-wash denim shorts ending at mid-thigh with a frayed hem and a fitted white ribbed cropped tank top with a high neckline|a fitted black short-sleeve bodysuit with a round neckline tucked into high-waisted denim shorts ending at mid-thigh}, sunglasses pushed up on her head.
+Pose: sitting on the towel with her legs folded to one side and knees together, leaning back on one hand, the other hand pushing her hair back.
+Expression: relaxed, warm smile toward the camera, eyes slightly squinting in the sun.
+Bright sun with hard shadows, a few grains of sand on her legs, unedited phone photo. Tasteful and safe for any social network: no swimwear, no see-through fabric, no cleavage.
+---
+Setting: a real beach bar or seaside promenade with a weathered wooden railing, a few palm trees, plastic chairs and the sea behind, at sunset.
+Outfit: {a fitted black halter crop top with a tasteful V neckline and fitted high-waisted white opaque satin pants|a fitted mocha one-shoulder ribbed seamless jumpsuit hugging her curves|a fitted emerald green short-sleeve bodycon mini dress with a round neckline}.
+Pose: leaning one hip against the railing with an iced drink in her hand, the other hand resting on the railing, body turned three-quarters toward the camera.
+Expression: confident, calm direct gaze with a small smile.
+Warm sunset light from the side with long shadows, unedited phone photo. Tasteful and safe for any social network: no swimwear, no see-through fabric, no cleavage.
+---
+Setting: a real public park lawn with slightly uneven grass, a few clover flowers, trees around and people far in the background, sunny afternoon.
+Outfit: {a fitted gingham cotton mini sundress with thin straps, a modest sweetheart neckline and a fitted bodice|a fitted polka-dot cotton mini sundress with thin straps and a modest neckline}, hem at mid-thigh, opaque fabric.
+Pose: sitting on the grass with her legs folded to one side and knees together, one hand holding the hem of her dress in place, the other hand resting on the grass.
+Expression: soft, slightly flirty smile, looking at the camera.
+Dappled sunlight through the trees, a few blades of grass on her legs, unedited phone photo. Tasteful and safe for any social network.
+---
+Setting: a real backyard lawn with uneven grass, potted plants, a plastic chair and a garden hose by the wall, a slightly wrinkled picnic blanket on the grass.
+Outfit: {a fitted mocha one-shoulder ribbed seamless jumpsuit hugging her curves|high-waisted light-wash skinny jeans and a fitted white off-the-shoulder ribbed top that ends at the waistband}, barefoot.
+Pose: lying on her side on the blanket, propped up on one elbow with her head resting on her hand, legs together with knees slightly bent, looking at the camera.
+Expression: relaxed and confident, soft closed-mouth smile.
+Warm late-afternoon sun with soft shadows, photo taken by a friend standing a few steps away. Tasteful and safe for any social network.
+---
+Setting: a real front or backyard lawn with uneven grass, a low hedge and a house wall behind, sunny late afternoon.
+Outfit: {a fitted beige ribbed knit two-piece set, a short-sleeve crop top and a matching fitted mini skirt ending at mid-thigh|a fitted white short-sleeve bodycon mini dress with a round neckline, hem at mid-thigh}, barefoot.
+Pose: walking barefoot across the grass, looking back over her shoulder at the camera mid-step, one hand lightly in her hair.
+Expression: confident, slightly flirty look, small smile.
+Warm sunlight from behind with a soft glow on her hair, unedited phone photo. Tasteful and safe for any social network.
+---
+Setting: a real bedroom with rumpled light sheets, a nightstand with a lamp and a phone charger, sheer curtains moving slightly at the window.
+Outfit: {a fitted champagne opaque satin slip mini dress with thin straps and a straight neckline|a fitted black ribbed bodycon mini dress with thin straps and a straight neckline}, hem at mid-thigh.
+Pose: standing by the window with her back three-quarters to the camera, looking back over her shoulder, one hand lifting her hair off her neck, showing the curve of her waist and hips.
+Expression: calm, confident gaze, lips relaxed and closed.
+Warm golden window light on her face and shoulders, the rest of the room in soft shadow, unedited phone photo. Sensual but tasteful and safe for any social network.
+---
+Setting: a real bedroom corner with a full-length mirror leaning against the wall, a few faint smudges on the mirror, part of an unmade bed and a chair with a few clothes on it.
+Outfit: {a fitted red short-sleeve bodycon mini dress with a round neckline|a fitted black one-shoulder stretch mini dress|a fitted white square-neck cropped top with short puff sleeves and a fitted light-wash denim mini skirt}, hem at mid-thigh.
+Pose: mirror selfie, body turned three-quarters to show the curve of her hips, one hand on her hip, holding the phone in a worn case at chest height with the back of the phone facing the mirror, face fully visible and not covered by the phone.
+Expression: confident, small asymmetric smile, looking at the phone screen.
+Soft daylight from the side, unedited phone photo. Sensual but tasteful and safe for any social network.
+---
+Setting: a real apartment balcony with a few potted plants, a plastic chair and neighboring buildings, at sunset.
+Outfit: {a fitted black opaque satin slip mini dress with thin straps and a straight neckline|a fitted olive one-shoulder ribbed seamless jumpsuit hugging her curves|a fitted black corset-style top with wide straps and a straight neckline and high-waisted dark-wash skinny jeans}.
+Pose: leaning back against the railing with both elbows resting on it, one knee slightly bent, a light breeze in her hair.
+Expression: confident and slightly flirty, calm direct gaze, small smile.
+Warm sunset light on one side of her face and body, the sky a little blown out, unedited phone photo. Sensual but tasteful and safe for any social network.
+---
+Setting: a real house or small hotel pool deck with tiled floor, a sun lounger with a folded towel, a few potted palms and the water behind her, she stays out of the water.
+Outfit: {a fitted white cotton mini sundress with wide straps and a modest square neckline|a fitted baby blue ribbed bodycon mini dress with thin straps and a straight neckline}, hem at mid-thigh, opaque fabric, flat sandals, sunglasses pushed up on her head.
+Pose: sitting on the edge of the sun lounger with legs crossed and knees together, leaning back on one hand, the other hand holding an iced drink.
+Expression: relaxed and confident, soft smile toward the camera.
+Bright midday sun with hard shadows and reflections from the water, unedited phone photo. Tasteful and safe for any social network: no swimwear, no see-through fabric, no cleavage.
+---
+Setting: a real street outside a small restaurant at night, warm string lights, a chalkboard menu and a few people softly in the background.
+Outfit: {a fitted wine red opaque satin slip mini dress with thin straps and a straight neckline|a fitted black corset-style top with wide straps and a straight neckline and high-waisted black skinny jeans|a fitted black halter crop top with a tasteful V neckline and fitted high-waisted champagne satin pants}, small gold earrings.
+Pose: leaning one shoulder against the wall, one hand on her hip, the other holding a small clutch, body turned three-quarters toward the camera.
+Expression: confident, calm gaze with a small closed-mouth smile.
+Warm light from the string lights and the restaurant window, some noise in the shadows, phone photo taken at night without flash. Sensual but tasteful and safe for any social network.
+---
+Setting: a real bathroom or bedroom getting ready to go out, a mirror with a few smudges, a counter with makeup, a hairbrush and perfume bottles.
+Outfit: {a fitted black ribbed bodycon mini dress with thin straps and a straight neckline|a fitted emerald green one-shoulder stretch mini dress}, hem at mid-thigh.
+Pose: standing in front of the mirror putting on an earring with both hands, head tilted slightly, photographed by a friend from the side so her face is visible in profile and in the mirror.
+Expression: focused and relaxed, lips softly closed.
+Warm light from the bulbs around the mirror, unedited phone photo. Sensual but tasteful and safe for any social network.
