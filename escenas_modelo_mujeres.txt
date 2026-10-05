@@ -1,0 +1,94 @@
+﻿# ESCENAS para «Más fotos de una modelo» (grupo mujeres)
+# Cada escena dice SOLO lo que cambia: lugar, ropa, pose, expresion y luz.
+# La cara y el cuerpo los mantiene la instruccion de identidad (panel › Modelos).
+# Separa las escenas con una linea que tenga solo ---. {a|b|c} elige una opcion al azar.
+
+Setting: a real, lived-in {small apartment kitchen with white tiles, a few dishes drying in the rack and fridge magnets|kitchen with slightly worn wooden cabinets, a fruit bowl and a dish towel hanging from the oven door}, a coffee maker and a few crumbs on the counter, morning daylight from the window.
+Outfit: {an oversized cream knit sweater with one sleeve pushed up and light-wash jeans faded at the knees|a fitted grey t-shirt slightly faded from washing and black leggings a little pilled at the knees}, in socks.
+Pose: leaning back against the counter, holding a coffee mug with both hands at chest height, ankles crossed.
+Expression: still a little sleepy, soft closed-mouth smile, looking at the camera.
+Unedited smartphone photo taken by someone in the kitchen, auto exposure, the window slightly blown out, natural colors.
+---
+Setting: a real city sidewalk with {a small café with metal chairs outside and a few parked bicycles|old brick buildings, a lamp post and a shop shutter with faded graffiti}, cracked pavement and a few people passing in the background, late afternoon sun with long shadows.
+Outfit: {a beige trench coat worn open over a white t-shirt and straight jeans|a slightly faded denim jacket, a black t-shirt and a midi skirt}, white sneakers with creases and a bit of dirt, a small worn shoulder bag.
+Pose: walking toward the camera mid-step, one hand tucking her hair behind her ear, the other holding her bag strap.
+Expression: relaxed and confident, slight smile, glancing at the camera.
+Candid photo taken quickly by a friend with a phone, slightly tilted framing, background as sharp as a phone renders it, a little movement in her hair.
+---
+Setting: a real, bright {living room with a grey sofa with slightly flattened cushions, a crumpled throw blanket and a couple of plants|bedroom with rumpled white linen, a nightstand with a phone charger and a glass of water, and a large window}.
+Outfit: {a soft pastel hoodie a little faded from washing and matching joggers|a loose button-up shirt with the sleeves rolled up and cotton shorts}, bare feet.
+Pose: sitting cross-legged on the sofa or the bed of the room with an open paperback on her lap, one finger keeping the page.
+Expression: calm, just looking up from the book toward the camera.
+Soft daylight from the window, unedited phone photo with a little noise in the shadows.
+---
+Setting: a real {small supermarket aisle with crowded shelves, price labels and a scuffed floor under flat fluorescent lights|local fruit market with wooden stalls, plastic crates and handwritten price signs}, other shoppers in the background.
+Outfit: {a black puffer vest over a long-sleeve top and jeans|a casual striped shirt and wide-leg trousers}, worn sneakers.
+Pose: holding {a plastic shopping basket with some fruit and a carton of milk|a reusable shopping bag with a baguette sticking out}, turned three-quarters toward the camera.
+Expression: friendly, natural smile, as if a friend just called her name.
+Everyday candid phone photo, the same light the place really has (store fluorescents or open daylight).
+---
+Setting: a real {public park with tall trees, a dirt path and a few people far in the distance|lakeside path with a wooden railing, a litter bin and a few ducks on the water} on a sunny day.
+Outfit: {a light cotton sundress with a thin cardigan|athletic leggings and a zip-up sports jacket}, comfortable shoes a little dusty from the path.
+Pose: {sitting on a weathered wooden bench with chipped paint, legs crossed|standing next to a tree with one hand resting on the trunk}.
+Expression: peaceful, eyes slightly squinting in the sun.
+Bright sun with hard shadows and dappled light through the leaves, unedited phone photo.
+---
+Setting: a real neighborhood {café with a small marble table, a few crumbs and a used sugar packet on it|bakery with pastries behind a slightly smudged glass display}, other customers in the background.
+Outfit: {a camel turtleneck sweater and gold hoop earrings|a white blouse and a black blazer}.
+Pose: seated at the table, chin resting on one hand, a half-finished latte in front of her.
+Expression: thoughtful, gentle closed-mouth smile.
+Window daylight mixed with warm indoor bulbs, phone photo taken from across the table.
+---
+Setting: a real office with {a laptop, a notebook, scattered pens, a mug and a slightly droopy monstera on the desk|large windows with a city view, a second monitor and tangled cables on the desk}.
+Outfit: {a navy blazer over a cream top and tailored trousers|a knit vest over a collared shirt}.
+Pose: sitting at the desk with one hand on the keyboard, turning her head to glance at the camera.
+Expression: focused but friendly, small smile.
+Flat office lights mixed with daylight, a quick photo taken by a coworker with a phone.
+---
+Setting: {a beach boardwalk at sunset with sand blown over the wooden planks|a rocky coastline with waves and some seaweed on the rocks}.
+Outfit: {a wrinkled linen shirt and linen trousers rolled up at the ankles|a light knit cardigan over a sundress}, barefoot.
+Pose: standing with the wind moving her hair over her shoulders (not over her face), holding her sandals in one hand.
+Expression: carefree, amused closed-mouth smile.
+Low sun from the side with the sky a little blown out, travel photo taken with a phone.
+---
+Setting: a real {neighborhood gym with weight racks, rubber floor mats and a mirror with fingerprints|yoga studio with a wooden floor, rolled-up mats and blocks stacked in a corner}.
+Outfit: {a matching sports bra and leggings under an open zip jacket|a loose tank top and biker shorts}, slightly worn sneakers, hair in a messy ponytail with a few damp strands at her hairline.
+Pose: {sitting on a bench tying her sneaker|standing with a water bottle in one hand and a small towel over her shoulder after a workout}.
+Expression: energetic, slight smile.
+Overhead indoor lights, unedited phone photo.
+---
+Setting: {a real rainy street with puddles and reflections on the wet pavement|a bus stop at dusk with a scratched plastic shelter, a timetable and car headlights on the street}.
+Outfit: {a yellow raincoat|a long black coat} over jeans, ankle boots with water spots, holding {a clear umbrella with raindrops on it|a black umbrella}.
+Pose: standing and looking back over her shoulder at the camera, the umbrella not covering her face.
+Expression: calm, small closed-mouth smile.
+Grey overcast or dusk light with streetlights, some noise in the shadows, unedited phone photo with no cinematic color grading.
+---
+Setting: a real {small apartment balcony with potted plants, a plastic chair and string lights|residential rooftop terrace with water tanks, a clothesline and neighboring buildings} in the evening.
+Outfit: {an oversized sweatshirt and soft shorts|a long knit dress with socks}.
+Pose: leaning her forearms on the railing with a mug of tea in her hands, body turned toward the camera.
+Expression: relaxed, looking into the distance, face in three-quarter view.
+The last daylight mixed with warm bulbs, phone photo with slight noise.
+---
+Setting: a real {bookstore aisle between tall, slightly messy shelves|public library with rows of shelves and long reading tables}.
+Outfit: {a plaid skirt, tights and a cream sweater|a denim shirt tucked into black trousers}.
+Pose: pulling a book from the shelf, turned slightly toward the camera.
+Expression: curious, small smile.
+Even indoor lighting, unedited phone photo.
+---
+Setting: {the driver's seat of a parked everyday car with worn fabric seats and a dusty dashboard|a train seat by the window with the landscape passing outside}.
+Outfit: {a hoodie with sunglasses pushed up on her head|a simple black top and a thin silver necklace}.
+Pose: front-camera selfie at arm's length, the other hand touching her hair without covering her face.
+Expression: playful smile.
+Daylight through the window, slight wide-angle distortion from the front camera, realistic smartphone selfie.
+---
+Setting: a real {backyard garden with flower beds, uneven grass and a garden hose|countryside field with tall grass and a dirt track} in spring.
+Outfit: {a floral midi dress and a straw hat tilted back so her face is visible|a white cotton shirt and light jeans}.
+Pose: walking away and looking back over her shoulder at the camera mid-step.
+Expression: happy, natural smile.
+Soft sunlight, unedited phone photo.
+---
+Setting: a real {living room at night with only a floor lamp on|small living room at night lit by the TV and a little lamp}, a couple of mugs and the remote on the coffee table.
+Outfit: {comfortable matching pajamas a little faded from washing|a big knit cardigan over a tank top and sweatpants}, socks.
+Pose: sitting on the floor leaning against the sofa, a blanket over her legs and a bowl of popcorn on her lap.
+Expression: cozy, content smile.
+Warm lamp light, visible noise in the darker areas, phone photo taken at night without flash.
