@@ -1,0 +1,177 @@
+﻿# Plantilla de apartados de Gemini Auto. Edítala y cárgala en el panel (Apartados › Cargar plantilla).
+# [Nombre | etiqueta en el prompt | nuevas, modelo]  -> una opción por línea debajo. # = comentario.
+
+[INICIO]
+Generate a new photorealistic image based on the photo I've attached.
+
+GOAL
+A new candid, everyday photo of a different man who closely resembles the man in my reference, as if a friend snapped it with a modern phone in the same kind of place as the reference. He looks clearly masculine, attractive and self-assured, with a grounded, relaxed presence, in fitted everyday clothes that show his build, in the style of a popular social media post, but always tasteful and safe for any social network. It must look like a real, unedited smartphone photo that was shared on social media, not a fashion shoot and not AI.
+
+MODEL
+- Clearly an adult man in his mid-20s or older, with mature adult facial features (defined cheekbones and jawline, adult facial proportions), even if the reference looks younger
+- Distinctly masculine look: a strong, defined jaw and chin, a solid neck, a heavier brow and a slightly rugged, lived-in face, never pretty-boy or delicate
+- Same as the reference: skin tone, eye color, hair color, hair length, hair texture (straight stays straight, wavy stays wavy, curly stays curly), haircut and type of facial hair (stubble, beard or clean-shaven)
+- Body: broad shoulders, a well-defined chest and a narrower waist, at least as fit as the man in the reference, always natural and believable (the type of build is described in Body below)
+- He must be a new, distinct person with his own face: clearly different facial features, so nobody would think it is the same man (only the overall look and style are similar)
+- Real-person details: slight natural facial asymmetry, visible skin pores, subtle natural unevenness in skin tone (without redness), faint under-eye shadows, a faint natural stubble shadow and a few stray hairs
+- Natural grooming like a real man's photo: untouched natural brows, no makeup, matte skin, natural lip color, cheeks and cheekbones the same even tone as the rest of his face (no blush, no pink or rosy color, no shine)
+
+CHANGE
+
+[Cara | - Face | nuevas]
+a clearly different, masculine face from the reference: {a squarer, more defined|a more rectangular|a slightly longer, angular|a broader, more rugged|a leaner, more chiseled} face shape, {a straighter, slightly longer nose|a nose with a slight bump on the bridge|a broader, strong nose|a narrower nose with a higher bridge|a slightly crooked nose, as if once broken}, {thinner lips|a wider mouth|a firm, straight mouth|a more defined upper lip} and {more almond-shaped eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes|narrower eyes under a heavier brow}
+a clearly different, masculine face from the reference: {a sharper, more angular jawline|a wider, squarer jaw|a more prominent chin|a wider, squarer chin|a cleft chin|higher, more prominent cheekbones|leaner cheeks under the cheekbones}, {a straighter, slightly longer nose|a nose with a slight bump on the bridge|a broader, strong nose|a narrower nose with a higher bridge|a slightly crooked nose, as if once broken}, {straighter, thicker brows|heavier, lower brows|thick, slightly unruly brows} and {a small mole on his cheek|a small scar on his eyebrow|a small scar on his chin|faint lines at the corners of his eyes|no extra marks}
+a clearly different, masculine face from the reference: {a squarer, more defined|a more rectangular|a slightly longer, angular|a broader, more rugged|a leaner, more chiseled} face shape, {more almond-shaped eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes|narrower eyes under a heavier brow}, {a sharper, more angular jawline|a wider, squarer jaw|a more prominent chin|a wider, squarer chin|a cleft chin|higher, more prominent cheekbones|leaner cheeks under the cheekbones} and {thinner lips|a wider mouth|a firm, straight mouth|a more defined upper lip}
+a clearly different, masculine face from the reference: {a straighter, slightly longer nose|a nose with a slight bump on the bridge|a broader, strong nose|a narrower nose with a higher bridge|a slightly crooked nose, as if once broken}, {straighter, thicker brows|heavier, lower brows|thick, slightly unruly brows}, {thinner lips|a wider mouth|a firm, straight mouth|a more defined upper lip} and {a small mole on his cheek|a small scar on his eyebrow|a small scar on his chin|faint lines at the corners of his eyes|no extra marks}
+a clearly different, masculine face from the reference: {a squarer, more defined|a more rectangular|a slightly longer, angular|a broader, more rugged|a leaner, more chiseled} face shape, {a sharper, more angular jawline|a wider, squarer jaw|a more prominent chin|a wider, squarer chin|a cleft chin|higher, more prominent cheekbones|leaner cheeks under the cheekbones}, {more almond-shaped eyes|slightly more hooded eyes|eyes set a little wider apart|slightly smaller, deeper-set eyes|narrower eyes under a heavier brow} and {a small mole on his cheek|a small scar on his eyebrow|a small scar on his chin|faint lines at the corners of his eyes|no extra marks}
+
+[Cuerpo | - Body | nuevas]
+a naturally fit, ordinary build from an active life, not a gym body: broad shoulders, a solid chest, a flat but not sculpted stomach, strong forearms and natural legs, like a real man who stays active but does not train for size
+a lean, naturally athletic build: broad shoulders, a lean chest, a flat stomach and long, lean arms and legs with light natural definition and visible forearm veins, like a man who plays sports or runs
+a solid, broad-shouldered build: wide shoulders and back, a thick neck, a full chest, strong arms and a flat stomach, sturdy and masculine, without visible muscle definition
+a fit, gym-trained build: broad, rounded shoulders, a defined chest that fills out his top, strong arms and a narrow waist, toned from regular training but natural, not a bodybuilder, no visible six-pack
+a toned swimmer's build: wide shoulders and a V-shaped torso tapering to a narrow waist, lean arms with subtle definition, natural and believable
+a strong, naturally muscular build from physical work: broad shoulders, a thick neck, thick forearms, big hands, a solid chest and a flat stomach, real and unpolished, not a bodybuilder
+
+[Ropa ajustada | - Outfit | nuevas]
+slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} joggers and a fitted heavyweight {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} crew-neck t-shirt that covers the waistband, realistic thick cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+{black|charcoal|gray|navy|olive|khaki|sand} slim athletic joggers with a matching fitted long-sleeve athletic top that covers the waist, sleeves pushed up to the forearms, realistic stretch fabric texture, natural stretch creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {light-wash|dark-wash|black} jeans and a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} crew-neck t-shirt, realistic denim and cotton texture, natural creases at the hips and knees, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} chinos and a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} polo shirt buttoned up, realistic piqué and cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} tailored trousers and a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} button-up shirt tucked in, buttoned to the collarbone, sleeves rolled up to the forearms, realistic fabric texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {dark-wash|black} jeans and a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} chunky-knit crew-neck sweater that covers the waistband, realistic knit and denim texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} ribbed turtleneck with slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} trousers, realistic knit texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} long-sleeve henley buttoned up, sleeves pushed to the forearms, with slim {dark-wash|light-wash|black} jeans, realistic waffle-knit and denim texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} joggers and a fitted zip-up athletic jacket zipped up to the collarbone and covering the waist, realistic stretch fabric texture, natural stretch creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a {red|green|blue|gray|brown|black} plaid flannel shirt buttoned up over a white t-shirt, sleeves rolled up to the forearms, with slim {dark-wash|black|medium-wash} jeans, realistic brushed flannel and denim texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {black|charcoal|navy|olive|khaki|sand|camel|brown|burgundy|forest green|plaid|houndstooth|camo|flannel-check} overshirt buttoned up over a white t-shirt, with slim {black|dark-wash} jeans, realistic twill and denim texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {black|charcoal|navy|olive|khaki|sand|camel|brown|burgundy|forest green|plaid|houndstooth|camo|flannel-check} bomber jacket over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} t-shirt, with slim {black|dark-wash} jeans, realistic nylon and cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {black|charcoal|navy|olive|khaki|sand|camel|brown|burgundy|forest green|plaid|houndstooth|camo|flannel-check} blazer over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} crew-neck t-shirt, with slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} trousers, realistic wool and cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} cargo pants and a fitted heavyweight {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} t-shirt that covers the waistband, realistic cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} linen shirt buttoned to the collarbone with the sleeves rolled up, with slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} trousers, realistic linen texture with natural wrinkles, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a {light-wash|medium-wash|dark-wash|black} denim trucker jacket over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} t-shirt, with slim {black|dark-wash|charcoal} jeans, realistic denim texture with faded seams, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a {tan|brown|olive|navy|black} canvas work jacket over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} heavyweight t-shirt, with slim {khaki|brown|black|dark-wash} work pants, realistic stiff canvas texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} hoodie with slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} joggers, realistic fleece texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {black|dark brown} leather jacket over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} t-shirt, with slim {black|dark-wash} jeans, realistic leather grain and creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} oxford shirt buttoned to the collarbone, sleeves rolled up, tucked into slim {dark-wash|black} jeans with a dark leather belt, realistic oxford cloth and denim texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|terracotta|mustard yellow|cream|red|vertical-striped|horizontal-striped|plaid|flannel-check|camo|color-block|pinstripe|houndstooth} short-sleeve t-shirt with slim {black|charcoal|gray|navy|khaki|sand|beige|stone|olive|brown|forest green|light gray} chinos, realistic cotton texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} quarter-zip knit sweater zipped up to the collarbone, with slim {beige|gray|dark-wash|charcoal} trousers, realistic knit texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a matching fitted {black|charcoal|navy|forest green|burgundy|gray|olive} tracksuit, a zip-up jacket zipped up to the collarbone and slim track pants, realistic polyester texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim {medium-wash|light-wash} jeans with slight fading on the thighs and knees and plain stitched back pockets, with a fitted denim {short-sleeve|long-sleeve} shirt buttoned to the collarbone and tucked in, denim-on-denim look, visible denim stitching, natural creases at the hips and knees, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+slim dark-wash jeans with faded whiskering on the thighs and slight bunching at the ankles, and a fitted {navy|black|olive|khaki} short-sleeve work shirt with two chest pockets, buttoned to the collarbone and tucked into the waistband, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a {olive|khaki|navy|black} field jacket with flap pockets over a fitted {white|black|heather-gray|charcoal|navy|royal blue|light blue|steel blue|teal|forest green|olive|khaki|sand|camel|brown|burgundy|rust|cream|red} t-shirt, with slim {black|dark-wash|khaki} pants, realistic cotton twill texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+a {black|navy|olive|tan} padded vest over a {red|green|blue|gray|brown} plaid flannel shirt buttoned up, with slim {dark-wash|black} jeans, realistic quilted nylon and flannel texture, natural creases, {slightly faded from washing|visible seam lines and stitching|fabric slightly bunched at the waist and joints|fabric that looks worn and washed, not brand-new}
+
+[Detalles | - Details | nuevas]
+{a thin steel chain|a simple silver chain under his collar|no jewelry}, {a steel dive watch|a simple analog watch with a leather strap|a rugged field watch with a canvas strap|a smartwatch}, {short hair slightly messy from the day|hair with natural texture and a few stray strands|hair a little flattened on one side}
+{sunglasses hooked on the collar of his top|car keys in one hand|a heavy steel watch}, {a worn leather bracelet|a plain silver ring|a smartwatch with a worn strap}, {a few stray hairs around his hairline|a slightly uneven hairline at the temples|hair with a visible cowlick}
+{a plain ring|a thin steel chain|a simple steel watch}, {short natural nails|short, slightly uneven nails and rough knuckles|clean short nails with visible cuticles}, {sleeves pushed up to show his forearms|veins visible on the backs of his hands|a few small healed nicks on his knuckles}
+{a smartwatch|a worn leather bracelet|a steel watch}, {a thin steel chain|a signet ring|no jewelry except a plain ring}, {his facial hair slightly uneven at the edges|his facial hair with a couple of days of extra growth|a dark shadow along the jaw}
+{a leather-strap watch|a black rubber-strap sports watch|a heavy steel watch}, {hair with a slightly grown-out neckline|a few short stray hairs at the temples|hair slightly flattened on one side}, {his facial hair neatly trimmed|his facial hair a little overgrown on the neck|a slightly uneven beard line}
+{a leather messenger bag|thin black-framed glasses|a thin chain under his collar}, {a tattoo on his forearm, partly visible below his rolled sleeve|a small tattoo on the back of his hand|no tattoos}, and if his feet are visible {white leather sneakers|brown leather work boots|black leather boots|suede chukka boots|worn trail shoes}
+
+[Pose | - Pose | nuevas]
+facing the camera straight on, feet shoulder-width apart, arms crossed over his chest, shoulders squared, steady look into the lens without smiling
+facing the camera, standing tall with his thumbs hooked in his front pockets, weight on one leg, a slight half smile
+standing in three-quarter view, one hand in his pocket and the other holding a jacket slung over his shoulder, calm confident look at the camera
+standing side-on to the camera with his hands in his pockets, head turned toward the lens with a calm, steady look
+leaning one shoulder against the nearest wall, arms crossed, one foot crossed over the other at the ankle, body in three-quarter view, calm half smile toward the camera
+leaning his back flat against the wall facing the camera, one foot planted against the wall behind him, hands in his pockets, chin level, serious steady look
+walking straight toward the camera mid-stride, arms swinging naturally, looking just past the lens, relaxed and confident
+walking past the camera in side profile mid-stride, head turned toward the lens with a candid look
+caught mid-step in three-quarter view, one hand adjusting the cuff of his sleeve, glancing at the camera
+sitting on a chair facing the camera, leaning forward with his forearms on his thighs and his hands loosely clasped, looking up at the camera with a steady look
+sitting backwards on a chair, straddling it with his forearms resting on the backrest, facing the camera, relaxed confident look
+sitting on the nearest step or ledge facing the camera, knees apart, elbows on his knees, calm half smile
+sitting on a sofa leaning back, one arm stretched along the backrest, knees apart and feet flat on the floor, facing the camera, relaxed look
+sitting at a table in three-quarter view, one forearm on the table and a coffee cup in his hand, looking at the camera with a natural half smile
+sitting on a high stool, one foot on the footrest and the other on the floor, forearm resting on his thigh, body in three-quarter view, easy smile
+crouching down on his heels facing the camera, forearms resting on his knees, hands loosely together, steady look at the camera
+rolling up the sleeve of his top to the forearm, standing in three-quarter view, glancing up at the camera
+adjusting the collar of his top with both hands, facing the camera, chin slightly raised, confident expression
+checking the watch on his wrist, standing side-on to the camera, candid moment
+holding a bottle of water at his side, the other hand in his pocket, facing the camera, calm confident look
+leaning with both forearms on a railing, a counter or the back of a chair, upper body forward, facing the camera, relaxed half smile
+standing with his back half turned to the camera, glancing back over his shoulder with a neutral, steady expression, not flirty
+standing with both hands resting on a railing or table edge behind him, leaning back slightly, facing the camera, shoulders open, steady look
+one foot up on a step or low ledge, forearm resting on his raised knee, body in three-quarter view, looking at the camera
+facing the camera straight on with his hands in his pockets, shoulders relaxed, full body visible from head to feet, photo taken from a few steps away
+standing in three-quarter view in the middle of the place, arms relaxed at his sides, full body with a lot of the place visible around him, photo taken from a few meters away
+walking slowly toward the camera from a distance with his hands in his pockets, full body, relaxed expression
+standing side-on next to a piece of furniture or a railing, one hand resting on it and the other in his pocket, full body, photo taken from a few steps away
+standing straight facing the camera, hands relaxed at his sides, neutral calm expression, framed from the knees up
+side profile view, looking into the distance with a calm, serious expression, framed from the waist up
+rubbing his jaw with one hand, the other arm relaxed, body in three-quarter view, small asymmetric half smile
+holding his phone loosely at his side, the other hand in his pocket, facing the camera, small closed-mouth smile
+looking down at the phone in his hand with a slight smile, body in three-quarter view, candid moment
+sitting on the edge of a bed or a bench facing the camera, forearms on his knees, hands loosely clasped, shoulders relaxed, small smile
+sitting sideways on a chair with one arm over the backrest, legs apart, relaxed, looking at the camera
+tying the lace of his shoe with one foot up on a step, looking up at the camera, candid moment
+carrying a backpack or a gym bag on one shoulder, mid-step, facing the camera, relaxed look
+standing with his feet apart and his hands loosely clasped in front of him, facing the camera, calm direct look
+leaning back against the nearest wall or railing with his arms crossed and ankles crossed, facing the camera, slight half smile
+running one hand back through his hair, the other hand in his pocket, body in three-quarter view, candid look at the camera
+caught mid-movement while turning toward the camera, natural candid expression that is not a posed smile, body in three-quarter view
+
+[FINAL]
+KEEP EXACTLY THE SAME
+- The same kind of place as the reference (if a setting is described above, use that setting instead): indoors stays indoors and outdoors stays outdoors, with the same architecture and decor style, the same wall, floor and furniture colors and the same level of luxury or simplicity. Not an exact copy: change only small details such as the camera angle, a different corner of the same place or some objects moved or different
+- Lighting: direction, softness, intensity, color temperature
+- Lens look, depth of field and framing style
+- Color grading, contrast, white balance, grain
+- Image quality: resolution, sharpness, level of detail, noise and compression
+- Natural, matte skin with small imperfections, like an unedited phone photo (no smoothing or beauty filter)
+
+REALISM (like a real, unedited photo taken with a phone)
+- Casual amateur framing: slightly off-center or slightly tilted, as if taken quickly by a friend, with part of his body or feet sometimes cut off by the frame
+- Phone camera look: wide-angle perspective with slight distortion near the edges; background blur, how bright areas such as windows or sky render (blown out or with visible color) and noise in the shadows exactly as in the reference
+- In front-camera selfies: slight wide-angle distortion, the arm closest to the camera looks bigger. In mirror selfies: a real phone in a plain, slightly worn case, fingerprints or smudges on the mirror, the mirror frame or a door frame cutting into the edge of the picture
+- The same kind of light as the reference, coming from the place itself (for example recessed ceiling lights and window light in a modern apartment, or sun and tree shadows in a garden), not studio lighting
+- A real, lived-in version of the reference's place: a few small, plain, unbranded everyday objects that would actually be there (in a modern apartment: a phone charger, a jacket on a chair, keys or a glass on a counter; in a garden or patio: a hose, a plastic chair, leaves on the ground), never turning a clean modern space into an old, weathered or run-down one
+- His own everyday clothes (cotton, knit, denim, twill), fitted to his real body so his shoulders, chest and arms show through the fabric, and already worn many times: small wrinkles at the waist, elbows and knees, visible seams, a little pilling, never brand-new; prints and patterns look slightly faded from washing and distorted where the fabric stretches
+- Personal details that make him a real person: a watch or a simple bracelet, a plain ring or a thin chain, short real nails, sometimes a small tattoo
+- Hands doing something small and real (holding the phone, a thumb in his pocket, adjusting his watch, running a hand through his hair, holding a coffee), with realistic nails, knuckles and visible veins, never stiff model hands
+- Natural, slightly asymmetric, masculine expression: often neutral or serious, a steady confident look or a small closed-mouth half smile, not a posed model smile
+
+IMAGE QUALITY (identical to the reference)
+- Exactly the same image quality as the reference photo: same resolution, sharpness and level of detail, same noise or grain, same compression; it must look like it was taken with the same phone, at the same time of day and in the same light
+- If the reference is a sharp, clean, modern smartphone photo, the new image is just as sharp and clean: individual hair strands, skin pores and fabric texture clearly defined, not smeared
+- Same contrast, brightness, color saturation and vividness as the reference: if the reference has a deep blue sky, rich greens and warm golden sunlight, so does the new image
+- Do not add blur, haze, JPEG artifacts or a washed-out look that are not in the reference
+- A digital photo from a modern smartphone (like a recent iPhone), never a film camera: no film grain, no analog or 35mm look, no faded or vintage colors
+
+AVOID
+- The same face as the reference (he must look like a different person)
+- A bodybuilder or bulky body (visible six-pack abs, bulging arms, an oversized chest or shoulders, prominent veins all over the arms)
+- A frail, very skinny or narrow-shouldered figure
+- Cartoonish or exaggerated body proportions
+- Childlike, teenage or baby-faced features (round baby cheeks, very large eyes, small childlike nose and chin); he must clearly look like an adult man
+- Freckles, rosy, pink or flushed cheeks or cheekbones, visible blush, or a reddish nose
+- Makeup, glowing highlighter on the cheekbones, heavy contour or a made-up 'beauty filter' face
+- Perfectly styled, glossy hair with no stray strands, or a perfectly sharp, drawn-on beard line
+- Colors more saturated or more muted than the reference, or an HDR look not present in the reference
+- Warm, yellow or sepia color cast not present in the original
+- Shiny, glossy, oily or overly glowing skin
+- Smoothed, plastic, waxy or airbrushed skin
+- Doll-like or artificial look (perfectly symmetrical face, oversized eyes, heavy beauty filter)
+- Illustration, CGI or 3D look
+- Anything that could be censored: shorts, tank tops, a bare or exposed chest, open or unbuttoned shirts, deep V-necks, crop tops, a bare midriff, see-through fabric or visible underwear (the outfit covers him down to the ankles and the top reaches the waistband), explicit or sexual poses or expressions
+- Deformed hands or extra fingers
+- Laughing out loud: open-mouth laughter, mid-laugh expressions, head thrown back laughing
+- Talking on the phone or holding a phone to his ear
+- Feminine or model-like poses: a hand on the hip, a popped hip, an arched back, a coy head tilt, both hands in his hair above his head, a flirty look over the shoulder, legs crossed with the knees together, fingertips delicately touching his face or neck, a limp wrist, pouting lips, a dreamy or sultry look
+- Soft, delicate or effeminate styling or body language: pastel or floral clothes, dainty jewelry, a hunched or shy posture; he stands and sits like a grounded, self-assured man
+- Image quality different from the reference: softer, blurrier, hazier, grainier, more compressed, flatter, grayer or more washed-out than the reference, or a professional camera look the reference does not have
+- Studio lighting, rim lights or perfectly even professional lighting
+- Perfectly centered, symmetrical or staged composition; stiff, model-like poses or exaggerated poses
+- A different kind of place than the reference (indoors turned into outdoors or the other way around, or a clean modern space turned into an old, weathered or run-down one)
+- A different hair texture, haircut or type of facial hair than the reference
+- Film photography look: 35mm or analog film grain, Kodak Portra-style warm faded colors, a vintage or nostalgic look
+- Backgrounds that look fake or rendered
+- Brand-new, perfectly smooth fabric with no wrinkles
+- Readable brand logos, recognizable cartoon characters, text or watermarks
+- Always the same side-profile angle: the body angle follows the pose described above (facing the camera straight on, three-quarter view, side-on or turned away), so the photos vary
+- Shops, store shelves, product displays, price tags, packaging, menus, signs, posters, artwork, book covers or screens showing content, and anything that looks like an advertisement or like selling a product
+
+FORMAT
+Vertical, same orientation as the reference. Generate the image directly without asking me any questions.
