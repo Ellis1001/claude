@@ -4,6 +4,7 @@ import { FaceState } from './pose.js';
 import { FaceSwap, sampleSkin } from './face-swap.js';
 import { AvatarLayer } from './avatar.js';
 import { storage } from './storage.js';
+import { AISwapper, computeEmbedding } from './ai-swap.js';
 import { TRIANGLES } from './face-mesh-data.js';
 
 const $ = (id) => document.getElementById(id);
@@ -30,6 +31,7 @@ scene.add(bg);
 const face = new FaceState();
 const faceSwap = new FaceSwap(scene);
 const avatar = new AvatarLayer(scene);
+const ai = new AISwapper();
 
 // Malla de depuración (aristas de los triángulos)
 const debugGeo = new THREE.BufferGeometry();
@@ -49,10 +51,11 @@ debugMesh.visible = false;
 scene.add(debugMesh);
 
 let W = 720, H = 1280;
-let facing = 'user';
-let mirrored = true;
-const prefs = Object.assign({ smoothing: 0.5, showMesh: false, recDot: true, active: 'doll' }, JSON.parse(localStorage.getItem('prefs') || '{}'));
+let facing = 'environment';
+let mirrored = false;
+const prefs = Object.assign({ smoothing: 0.5, showMesh: false, recDot: true, active: 'doll', facing: 'environment' }, JSON.parse(localStorage.getItem('prefs') || '{}'));
 const savePrefs = () => localStorage.setItem('prefs', JSON.stringify(prefs));
+facing = prefs.facing;
 
 function resize(w, h) {
   W = w; H = h;
@@ -98,7 +101,7 @@ let active = null;
 const runtime = new Map(); // id -> datos ya preparados (canvas, etc.)
 
 const DEFAULTS = {
-  face: { opacity: 1, feather: 2.5, colorMatch: 0.7, holes: true },
+  face: { opacity: 1, feather: 2.5, colorMatch: 0.7, holes: true, ai: true, sharpen: 0.6 },
   avatar: { scale: 1, height: 0, depth: 0, swapLR: false },
 };
 
@@ -179,6 +182,8 @@ async function selectFilter(id) {
   prefs.active = f.id; savePrefs();
   renderChoices();
   faceSwap.setFilter(null);
+  ai.setSource(null);
+  setAIStatus('');
   avatar.clear();
   const el = document.querySelector(`.choice[data-id="${f.id}"]`);
   el?.classList.add('busy');
@@ -188,7 +193,11 @@ async function selectFilter(id) {
       let rt = runtime.get(f.id);
       if (!rt) { rt = { canvas: await blobToCanvas(f.blob) }; runtime.set(f.id, rt); }
       if (active !== f) return;
-      if (f.type === 'face') faceSwap.setFilter({ canvas: rt.canvas, landmarks: f.landmarks });
+      if (f.type === 'face') {
+        faceSwap.setFilter({ canvas: rt.canvas, landmarks: f.landmarks });
+        ai.setSource(null);
+        if (filterSettings(f).ai) prepareAI(f, rt.canvas);
+      }
       else avatar.setSticker(rt.canvas);
     } else if (f.type === 'model') {
       const buf = await f.blob.arrayBuffer();
@@ -213,9 +222,37 @@ function applySettings() {
     faceSwap.setOpacity(s.opacity);
     faceSwap.setFeather(s.feather);
     faceSwap.setColorMatch(s.colorMatch);
-    if (faceSwap.settings.holes !== s.holes) faceSwap.setHoles(s.holes);
+    faceSwap.setSharpen(s.sharpen);
+    const holes = s.ai ? false : s.holes; // la IA ya genera ojos y boca
+    if (faceSwap.settings.holes !== holes) faceSwap.setHoles(holes);
+    if (!s.ai) { ai.setSource(null); faceSwap.clearAI(); }
   } else {
     Object.assign(avatar.settings, { scale: s.scale, height: s.height, depth: s.depth, swapLR: s.swapLR });
+  }
+}
+
+// ---------- Modo IA ----------
+let aiStatus = '';
+function setAIStatus(t) { aiStatus = t; $('aiStatus').textContent = t; }
+
+/** Calcula la identidad de la foto (una vez) y carga la red de intercambio. Mientras tanto se ve el modo malla. */
+async function prepareAI(f, canvas) {
+  try {
+    if (!f.embedding) {
+      setAIStatus('Analizando la identidad de la cara…');
+      f.embedding = await computeEmbedding(canvas, f.landmarks, (p) => setAIStatus(`Descargando analizador de caras… ${Math.round(p * 100)}%`));
+      storage.put(f).catch(() => {});
+    }
+    if (!ai.ready) {
+      setAIStatus('Preparando la IA…');
+      await ai.load((p) => setAIStatus(`Descargando modelo de IA (277 MB, solo la primera vez)… ${Math.round(p * 100)}%`));
+    }
+    if (active !== f || !filterSettings(f).ai) return;
+    ai.setSource(f.embedding);
+    setAIStatus(ai.ep === 'webgpu' ? `IA lista (GPU, ${ai.precision})` : 'IA lista, pero este navegador no da acceso a la GPU (WebGPU): irá muy lenta');
+  } catch (err) {
+    console.error(err);
+    setAIStatus('No se pudo activar la IA: ' + (err.message || err));
   }
 }
 
@@ -257,6 +294,9 @@ function refreshSettings() {
   if (isFace || isAvatar) {
     const s = filterSettings(f);
     $('sOpacity').value = s.opacity; $('sFeather').value = s.feather; $('sColor').value = s.colorMatch; $('sHoles').checked = s.holes;
+    $('sAI').checked = !!s.ai; $('sSharpen').value = s.sharpen;
+    $('aiOnly').classList.toggle('hidden', !s.ai); $('meshOnly').classList.toggle('hidden', !!s.ai);
+    if (isFace && !s.ai) setAIStatus('');
     $('sScale').value = s.scale; $('sHeight').value = s.height; $('sDepth').value = s.depth; $('sSwap').checked = s.swapLR;
   }
   $('sSmooth').value = prefs.smoothing;
@@ -281,6 +321,13 @@ const bind = (id, key, isCheck = false) => {
   });
 };
 bind('sOpacity', 'opacity'); bind('sFeather', 'feather'); bind('sColor', 'colorMatch'); bind('sHoles', 'holes', true);
+bind('sSharpen', 'sharpen');
+$('sAI').addEventListener('change', () => {
+  if (active?.type !== 'face') return;
+  filterSettings(active).ai = $('sAI').checked;
+  persistActive();
+  selectFilter(active.id);
+});
 bind('sScale', 'scale'); bind('sHeight', 'height'); bind('sDepth', 'depth'); bind('sSwap', 'swapLR', true);
 $('sSmooth').addEventListener('input', () => { prefs.smoothing = parseFloat($('sSmooth').value); savePrefs(); });
 $('sMesh').addEventListener('change', () => { prefs.showMesh = $('sMesh').checked; savePrefs(); });
@@ -308,6 +355,7 @@ $('modelInput').onchange = async (e) => {
 
 $('btnFlip').onclick = async () => {
   facing = facing === 'user' ? 'environment' : 'user';
+  prefs.facing = facing; savePrefs();
   try { await startCamera(); } catch (err) { toast('No se pudo cambiar de cámara'); facing = 'user'; await startCamera(); }
 };
 
@@ -447,17 +495,33 @@ $('btnShare').onclick = async () => {
 
 // ---------- Bucle principal ----------
 let lastVideoTime = -1, frameCount = 0, lastNow = performance.now();
+const snap = document.createElement('canvas');
 function loop(now) {
   requestAnimationFrame(loop);
   const dt = Math.min(0.1, (now - lastNow) / 1000);
   lastNow = now;
   if (video.readyState >= 2 && video.currentTime !== lastVideoTime) {
     lastVideoTime = video.currentTime;
+    // Cuando toca generar una cara con IA se congela el fotograma en un lienzo, para que la
+    // detección y el recorte que va a la red usen exactamente la misma imagen.
+    let src = video;
+    if (active?.type === 'face' && ai.source && !ai.busy) {
+      if (snap.width !== W || snap.height !== H) { snap.width = W; snap.height = H; }
+      snap.getContext('2d').drawImage(video, 0, 0, W, H);
+      src = snap;
+    }
     let det = null;
-    try { det = detectVideo(video, now); } catch (err) { console.warn(err); }
+    try { det = detectVideo(src, now); } catch (err) { console.warn(err); }
     face.update(det, W, H, mirrored, prefs.smoothing);
-    if (det && active?.type === 'face' && frameCount++ % 8 === 0) {
-      faceSwap.updateColor(sampleSkin(video, det.landmarks));
+    if (det && active?.type === 'face') {
+      if (ai.source) {
+        ai.maybeRun(src, det.landmarks, W, H, (rgba, uv) => {
+          if (active?.type === 'face' && ai.source) faceSwap.setAIFrame(rgba, uv);
+        });
+        if (frameCount++ % 30 === 0 && ai.fps) setAIStatus(`IA activa (${ai.ep === 'webgpu' ? 'GPU ' + ai.precision : 'CPU, muy lenta'}) · ${ai.fps.toFixed(1)} caras/s`);
+      } else if (frameCount++ % 8 === 0) {
+        faceSwap.updateColor(sampleSkin(video, det.landmarks));
+      }
     }
     setHint(face.visible ? '' : 'Pon tu cara frente a la cámara');
   }
@@ -514,4 +578,4 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
 }
 
 // Exponer para pruebas
-window.__app = { face, faceSwap, avatar, get active() { return active; }, get mode() { return mode; }, get recording() { return !!recorder; }, selectFilter };
+window.__app = { face, faceSwap, avatar, get active() { return active; }, get mode() { return mode; }, get recording() { return !!recorder; }, get aiStatus() { return aiStatus; }, ai, selectFilter };

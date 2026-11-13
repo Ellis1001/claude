@@ -35,16 +35,23 @@
       <section>
         <h3>Elige tu aspecto</h3>
         <div id="choices"></div>
-        <p class="small">Con una <b>foto de cara</b> se copia esa cara sobre la tuya. Una imagen sin cara (dibujo PNG) se usa como máscara. Un <b>modelo 3D .glb</b> se pone como cabeza y, si tiene gestos (blendshapes), copia tus expresiones.</p>
+        <p class="small">Con una <b>foto de cara</b>, la IA cambia el rostro de quien enfoques por el de la foto. Una imagen sin cara (dibujo PNG) se usa como máscara. Un <b>modelo 3D .glb</b> se pone como cabeza y, si tiene gestos (blendshapes), copia tus expresiones.</p>
       </section>
 
       <section id="settingsSection">
         <h3 id="settingsTitle">Ajustes</h3>
         <div id="faceSettings">
+          <label class="check"><input type="checkbox" id="sAI" /> <span><b>Modo IA</b>: cambia el rostro por completo</span></label>
+          <p id="aiStatus" class="small"></p>
           <label>Opacidad <input type="range" id="sOpacity" min="0.2" max="1" step="0.01" /></label>
           <label>Suavizar bordes <input type="range" id="sFeather" min="0" max="6" step="0.1" /></label>
-          <label>Igualar color de piel <input type="range" id="sColor" min="0" max="1" step="0.01" /></label>
-          <label class="check"><input type="checkbox" id="sHoles" /> Usar mis ojos y boca reales</label>
+          <div id="aiOnly">
+            <label>Nitidez <input type="range" id="sSharpen" min="0" max="2" step="0.01" /></label>
+          </div>
+          <div id="meshOnly">
+            <label>Igualar color de piel <input type="range" id="sColor" min="0" max="1" step="0.01" /></label>
+            <label class="check"><input type="checkbox" id="sHoles" /> Usar mis ojos y boca reales</label>
+          </div>
         </div>
         <div id="avatarSettings">
           <label>Tamaño <input type="range" id="sScale" min="0.4" max="2.5" step="0.01" /></label>

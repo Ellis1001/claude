@@ -59,10 +59,18 @@ const fragmentShader = /* glsl */ `
   uniform sampler2D map;
   uniform vec3 gain;
   uniform float opacity;
+  uniform float sharpen;
+  uniform vec2 texel;
   varying vec2 vUv;
   varying float vAlpha;
   void main() {
     vec4 c = texture2D(map, vUv);
+    if (sharpen > 0.0) {
+      // máscara de enfoque: resalta el detalle de la textura de baja resolución
+      vec3 blur = (texture2D(map, vUv + vec2(texel.x, 0.0)).rgb + texture2D(map, vUv - vec2(texel.x, 0.0)).rgb
+        + texture2D(map, vUv + vec2(0.0, texel.y)).rgb + texture2D(map, vUv - vec2(0.0, texel.y)).rgb) * 0.25;
+      c.rgb += (c.rgb - blur) * sharpen;
+    }
     gl_FragColor = vec4(clamp(c.rgb * gain, 0.0, 1.0), c.a * vAlpha * opacity);
   }
 `;
@@ -82,6 +90,8 @@ export class FaceSwap {
         map: { value: null },
         gain: { value: new THREE.Vector3(1, 1, 1) },
         opacity: { value: 1 },
+        sharpen: { value: 0 },
+        texel: { value: new THREE.Vector2(1 / 128, 1 / 128) },
       },
       vertexShader,
       fragmentShader,
@@ -98,7 +108,8 @@ export class FaceSwap {
 
     this.refColor = null; // color medio de la piel en la foto de referencia
     this.liveGain = new THREE.Vector3(1, 1, 1);
-    this.settings = { holes: true, feather: 2.5, opacity: 1, colorMatch: 0.7 };
+    this.settings = { holes: true, feather: 2.5, opacity: 1, colorMatch: 0.7, sharpen: 0.6 };
+    this.aiActive = false;
     this.setHoles(true);
     this.setFeather(2.5);
   }
@@ -106,7 +117,8 @@ export class FaceSwap {
   /** filter: { canvas (imagen reducida), landmarks (normalizados) } */
   setFilter(filter) {
     if (this.texture) this.texture.dispose();
-    if (!filter) { this.texture = null; this.material.uniforms.map.value = null; return; }
+    this.clearAI();
+    if (!filter) { this.texture = null; this.photoUV = null; this.material.uniforms.map.value = null; return; }
     const tex = new THREE.CanvasTexture(filter.canvas);
     tex.flipY = true;
     tex.minFilter = THREE.LinearFilter;
@@ -118,8 +130,44 @@ export class FaceSwap {
       uv.setXY(i, filter.landmarks[i].x, 1 - filter.landmarks[i].y);
     }
     uv.needsUpdate = true;
+    this.photoUV = new Float32Array(uv.array);
     this.refColor = sampleSkin(filter.canvas, filter.landmarks);
   }
+
+  /** Modo IA: textura de 128x128 generada por la red y sus coordenadas sobre la malla. */
+  setAIFrame(rgba, uvArray) {
+    if (!this.aiTexture) {
+      const tex = new THREE.DataTexture(new Uint8Array(128 * 128 * 4), 128, 128, THREE.RGBAFormat);
+      tex.minFilter = tex.magFilter = THREE.LinearFilter;
+      tex.generateMipmaps = false;
+      this.aiTexture = tex;
+    }
+    this.aiTexture.image.data.set(rgba);
+    this.aiTexture.needsUpdate = true;
+    const uv = this.geometry.attributes.uv;
+    uv.array.set(uvArray);
+    uv.needsUpdate = true;
+    const u = this.material.uniforms;
+    u.map.value = this.aiTexture;
+    u.gain.value.set(1, 1, 1);
+    u.sharpen.value = this.settings.sharpen;
+    this.aiActive = true;
+  }
+
+  clearAI() {
+    if (!this.aiActive) return;
+    this.aiActive = false;
+    const u = this.material.uniforms;
+    u.map.value = this.texture || null;
+    u.sharpen.value = 0;
+    if (this.photoUV) {
+      const uv = this.geometry.attributes.uv;
+      uv.array.set(this.photoUV);
+      uv.needsUpdate = true;
+    }
+  }
+
+  setSharpen(v) { this.settings.sharpen = v; if (this.aiActive) this.material.uniforms.sharpen.value = v; }
 
   setHoles(on) {
     this.settings.holes = on;
@@ -142,7 +190,7 @@ export class FaceSwap {
 
   /** Ajusta el tono de la máscara al de la piel en vivo. */
   updateColor(liveColor) {
-    if (!this.refColor || !liveColor) return;
+    if (this.aiActive || !this.refColor || !liveColor) return;
     const s = this.settings.colorMatch;
     const target = new THREE.Vector3(
       clampGain(liveColor[0] / this.refColor[0]),
@@ -155,7 +203,7 @@ export class FaceSwap {
   }
 
   update(face, active) {
-    const show = active && face.visible && !!this.texture;
+    const show = active && face.visible && !!this.material.uniforms.map.value;
     this.mesh.visible = show;
   }
 }

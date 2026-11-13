@@ -5,7 +5,8 @@ App web instalable (PWA) para el móvil que te pone otra cara o un muñeco 3D en
 ## Cómo funciona
 
 1. **Pantalla de configuración**: eliges cómo quieres salir, con vista previa en vivo.
-   - **Foto de cara**: se detecta la cara de la foto y se pega sobre la tuya (sigue tus gestos; opcionalmente con tus ojos y boca reales).
+   - **Foto de cara + Modo IA** (por defecto): una red neuronal de intercambio de caras regenera el rostro de la persona enfocada con la identidad de la foto, conservando su expresión y la luz. Corre en la GPU del teléfono con WebGPU.
+   - **Foto de cara sin IA**: la cara de la foto se estira sobre la malla facial (más ligero, menos realista).
    - **Imagen sin cara** (por ejemplo un dibujo PNG con transparencia): se usa como máscara que sigue tu cabeza.
    - **Modelo 3D `.glb`**: se coloca como cabeza. Si tiene blendshapes con nombres ARKit (`jawOpen`, `eyeBlinkLeft`…), copia tus expresiones.
    - **Muñeco** incluido, que parpadea, abre la boca y sonríe contigo.
@@ -31,7 +32,17 @@ cd filtro-caras && python3 -m http.server 8000
 
 y abre `http://localhost:8000`.
 
+## Modo IA
+
+- La primera vez descarga el modelo (unos 370 MB en total) y lo guarda en el teléfono; después funciona sin conexión.
+- La red genera la cara a 128×128 px varias veces por segundo; entre una y otra, la última cara generada se deforma sobre la malla facial para que el movimiento siga fluido.
+- En los ajustes se ve el estado (`IA activa (GPU fp16) · N caras/s`). Si pone CPU, el navegador no tiene WebGPU y será demasiado lento: desactiva el Modo IA.
+- Modelos: `inswapper_128` y `arcface_w600k_r50` de [InsightFace](https://github.com/deepinsight/insightface), cuya licencia es **solo para uso no comercial / investigación**. Los pesos están convertidos a fp16 y troceados en `models/`.
+- Usa solo caras de personas que te hayan dado permiso.
+
 ## Tecnología
+
+- [ONNX Runtime Web](https://onnxruntime.ai) (WebGPU) para la red de intercambio de caras.
 
 - [MediaPipe Face Landmarker](https://ai.google.dev/edge/mediapipe/solutions/vision/face_landmarker) (468 puntos + 52 blendshapes), incluido en `vendor/` y `models/`.
 - [three.js](https://threejs.org) para dibujar la máscara y los modelos 3D.
