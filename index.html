@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#000000" />
+  <title>Filtro Caras</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+    { "imports": { "three": "./vendor/three/three.module.js" } }
+  </script>
+</head>
+<body>
+  <div id="app" class="mode-start">
+    <video id="video" playsinline muted autoplay></video>
+
+    <!-- Pantalla limpia: el lienzo ocupa todo y no hay botones -->
+    <div id="stage"><canvas id="view"></canvas></div>
+    <div id="recDot" class="hidden"></div>
+
+    <!-- Configuración inicial -->
+    <div id="setup">
+      <header>
+        <h2>¿Cómo quieres salir?</h2>
+        <button id="btnFlip" class="icon-btn" aria-label="Cambiar cámara">
+          <svg viewBox="0 0 24 24"><path d="M4 7h3l2-2h6l2 2h3v12H4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12.5a3 3 0 0 1 5.2-2M15 12.5a3 3 0 0 1-5.2 2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </header>
+
+      <div id="previewBox"><div id="hint"></div></div>
+
+      <section>
+        <h3>Elige tu aspecto</h3>
+        <div id="choices"></div>
+        <p class="small">Con una <b>foto de cara</b> se copia esa cara sobre la tuya. Una imagen sin cara (dibujo PNG) se usa como máscara. Un <b>modelo 3D .glb</b> se pone como cabeza y, si tiene gestos (blendshapes), copia tus expresiones.</p>
+      </section>
+
+      <section id="settingsSection">
+        <h3 id="settingsTitle">Ajustes</h3>
+        <div id="faceSettings">
+          <label>Opacidad <input type="range" id="sOpacity" min="0.2" max="1" step="0.01" /></label>
+          <label>Suavizar bordes <input type="range" id="sFeather" min="0" max="6" step="0.1" /></label>
+          <label>Igualar color de piel <input type="range" id="sColor" min="0" max="1" step="0.01" /></label>
+          <label class="check"><input type="checkbox" id="sHoles" /> Usar mis ojos y boca reales</label>
+        </div>
+        <div id="avatarSettings">
+          <label>Tamaño <input type="range" id="sScale" min="0.4" max="2.5" step="0.01" /></label>
+          <label>Altura <input type="range" id="sHeight" min="-12" max="12" step="0.1" /></label>
+          <label>Profundidad <input type="range" id="sDepth" min="-15" max="15" step="0.1" /></label>
+          <label class="check"><input type="checkbox" id="sSwap" /> Intercambiar gestos izquierda/derecha</label>
+        </div>
+        <label>Suavizado del movimiento <input type="range" id="sSmooth" min="0" max="1" step="0.01" /></label>
+        <label class="check"><input type="checkbox" id="sDot" /> Mostrar punto rojo mientras grabo</label>
+        <label class="check"><input type="checkbox" id="sMesh" /> Ver malla de seguimiento (pruebas)</label>
+        <button class="secondary small-btn" id="btnDelete">🗑️ Borrar este aspecto</button>
+      </section>
+
+      <footer>
+        <button id="btnGo">Empezar ▶</button>
+        <p class="small">En la pantalla limpia: <b>mantén pulsado</b> para empezar/parar la grabación · <b>toca dos veces</b> (o botón atrás) para volver aquí.</p>
+      </footer>
+    </div>
+
+    <input type="file" id="imageInput" accept="image/*" multiple hidden />
+    <input type="file" id="modelInput" hidden />
+
+    <div id="preview" class="hidden">
+      <div id="previewMedia"></div>
+      <div class="row">
+        <button class="secondary" id="btnDiscard">✕ Descartar</button>
+        <button class="secondary" id="btnSave">⬇ Guardar</button>
+        <button id="btnShare">↗ Compartir</button>
+      </div>
+    </div>
+
+    <div id="start">
+      <div class="logo">🎭</div>
+      <h1>Filtro Caras</h1>
+      <p>Cópiate el aspecto de otra cara o de un muñeco 3D en tiempo real.</p>
+      <button id="btnStart">Abrir cámara</button>
+      <p id="status" class="small"></p>
+    </div>
+
+    <div id="toast" class="hidden"></div>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
